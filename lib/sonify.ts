@@ -25,13 +25,19 @@ import * as Tone from "tone";
 import type { LineDefinition, SynthKind } from "./lines";
 import type { ActiveTrain } from "./schedule";
 
+// Tone.PolySynth es genérico sobre la voz monofónica subyacente (Synth, FMSynth,
+// AMSynth, MetalSynth, etc). TS no puede inferir un supertipo común entre todos
+// ellos, así que usamos `any` en la voz del PolySynth. La API pública
+// (`triggerAttackRelease`) es estable independientemente del generic.
+type AnyPolySynth = Tone.PolySynth<any>;
+
 type LineVoice = {
-  synth: Tone.PolySynth;
+  synth: AnyPolySynth;
   volume: Tone.Volume;
   muted: boolean;
 };
 
-function buildSynth(kind: SynthKind): Tone.PolySynth {
+function buildSynth(kind: SynthKind): AnyPolySynth {
   // Cada timbre produce una textura distintiva. Ajustamos release y attack
   // para que el resultado colectivo no se empaste.
   const common = { envelope: { attack: 0.02, decay: 0.25, sustain: 0.3, release: 1.5 } };
