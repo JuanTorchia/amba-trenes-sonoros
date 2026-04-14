@@ -86,10 +86,16 @@ function hhmmssToMinutes(t: string): number {
 }
 
 async function tryDownload(): Promise<Buffer | null> {
+  const FETCH_TIMEOUT_MS = 15_000;
   for (const url of GTFS_SOURCES) {
+    const controller = new AbortController();
+    const timer = setTimeout(() => controller.abort(), FETCH_TIMEOUT_MS);
     try {
       console.log(`[gtfs] intentando ${url}`);
-      const res = await fetch(url, { headers: { "User-Agent": "amba-trenes-sonoros/0.1" } });
+      const res = await fetch(url, {
+        headers: { "User-Agent": "amba-trenes-sonoros/0.1" },
+        signal: controller.signal,
+      });
       if (!res.ok) {
         console.warn(`[gtfs] ${url} respondió ${res.status}`);
         continue;
@@ -99,6 +105,8 @@ async function tryDownload(): Promise<Buffer | null> {
       return buf;
     } catch (err) {
       console.warn(`[gtfs] fallo ${url}: ${(err as Error).message}`);
+    } finally {
+      clearTimeout(timer);
     }
   }
   return null;
