@@ -1,0 +1,12 @@
+node_modules
+.next
+out
+.env*.local
+.env
+.DS_Store
+*.log
+.vercel
+next-env.d.ts
+
+# GTFS fuente (se descarga en build). El snapshot JSON sí se committea.
+data/raw/

@@ -1,0 +1,6463 @@
+{
+  "generatedAt": "2026-04-14T01:09:35.896Z",
+  "source": "fallback-synthetic (snapshot inicial)",
+  "lines": [
+    {
+      "id": "sarmiento",
+      "name": "Sarmiento",
+      "matchers": [
+        "sarmiento"
+      ],
+      "synth": "sawtooth",
+      "color": "#f97316",
+      "operator": "SOFSE"
+    },
+    {
+      "id": "mitre",
+      "name": "Mitre",
+      "matchers": [
+        "mitre"
+      ],
+      "synth": "sine",
+      "color": "#eab308",
+      "operator": "SOFSE"
+    },
+    {
+      "id": "roca",
+      "name": "Roca",
+      "matchers": [
+        "roca"
+      ],
+      "synth": "square",
+      "color": "#22c55e",
+      "operator": "SOFSE"
+    },
+    {
+      "id": "san-martin",
+      "name": "San Martín",
+      "matchers": [
+        "san mart",
+        "sanmartin"
+      ],
+      "synth": "triangle",
+      "color": "#3b82f6",
+      "operator": "SOFSE"
+    },
+    {
+      "id": "belgrano-norte",
+      "name": "Belgrano Norte",
+      "matchers": [
+        "belgrano norte"
+      ],
+      "synth": "fm",
+      "color": "#ec4899",
+      "operator": "FerroviasSAC"
+    },
+    {
+      "id": "belgrano-sur",
+      "name": "Belgrano Sur",
+      "matchers": [
+        "belgrano sur"
+      ],
+      "synth": "am",
+      "color": "#a855f7",
+      "operator": "SOFSE"
+    },
+    {
+      "id": "urquiza",
+      "name": "Urquiza",
+      "matchers": [
+        "urquiza"
+      ],
+      "synth": "metal",
+      "color": "#14b8a6",
+      "operator": "Metrovías"
+    }
+  ],
+  "trips": [
+    {
+      "tripId": "sarmiento-300-ida",
+      "lineId": "sarmiento",
+      "routeName": "Sarmiento",
+      "headsign": "Cabecera",
+      "startsAtMinute": 300,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "sarmiento-300-vuelta",
+      "lineId": "sarmiento",
+      "routeName": "Sarmiento",
+      "headsign": "Retiro",
+      "startsAtMinute": 300,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "sarmiento-320-ida",
+      "lineId": "sarmiento",
+      "routeName": "Sarmiento",
+      "headsign": "Cabecera",
+      "startsAtMinute": 320,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "sarmiento-320-vuelta",
+      "lineId": "sarmiento",
+      "routeName": "Sarmiento",
+      "headsign": "Retiro",
+      "startsAtMinute": 320,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "sarmiento-340-ida",
+      "lineId": "sarmiento",
+      "routeName": "Sarmiento",
+      "headsign": "Cabecera",
+      "startsAtMinute": 340,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "sarmiento-340-vuelta",
+      "lineId": "sarmiento",
+      "routeName": "Sarmiento",
+      "headsign": "Retiro",
+      "startsAtMinute": 340,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "sarmiento-360-ida",
+      "lineId": "sarmiento",
+      "routeName": "Sarmiento",
+      "headsign": "Cabecera",
+      "startsAtMinute": 360,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "sarmiento-360-vuelta",
+      "lineId": "sarmiento",
+      "routeName": "Sarmiento",
+      "headsign": "Retiro",
+      "startsAtMinute": 360,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "sarmiento-380-ida",
+      "lineId": "sarmiento",
+      "routeName": "Sarmiento",
+      "headsign": "Cabecera",
+      "startsAtMinute": 380,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "sarmiento-380-vuelta",
+      "lineId": "sarmiento",
+      "routeName": "Sarmiento",
+      "headsign": "Retiro",
+      "startsAtMinute": 380,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "sarmiento-400-ida",
+      "lineId": "sarmiento",
+      "routeName": "Sarmiento",
+      "headsign": "Cabecera",
+      "startsAtMinute": 400,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "sarmiento-400-vuelta",
+      "lineId": "sarmiento",
+      "routeName": "Sarmiento",
+      "headsign": "Retiro",
+      "startsAtMinute": 400,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "sarmiento-420-ida",
+      "lineId": "sarmiento",
+      "routeName": "Sarmiento",
+      "headsign": "Cabecera",
+      "startsAtMinute": 420,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "sarmiento-420-vuelta",
+      "lineId": "sarmiento",
+      "routeName": "Sarmiento",
+      "headsign": "Retiro",
+      "startsAtMinute": 420,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "sarmiento-440-ida",
+      "lineId": "sarmiento",
+      "routeName": "Sarmiento",
+      "headsign": "Cabecera",
+      "startsAtMinute": 440,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "sarmiento-440-vuelta",
+      "lineId": "sarmiento",
+      "routeName": "Sarmiento",
+      "headsign": "Retiro",
+      "startsAtMinute": 440,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "sarmiento-460-ida",
+      "lineId": "sarmiento",
+      "routeName": "Sarmiento",
+      "headsign": "Cabecera",
+      "startsAtMinute": 460,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "sarmiento-460-vuelta",
+      "lineId": "sarmiento",
+      "routeName": "Sarmiento",
+      "headsign": "Retiro",
+      "startsAtMinute": 460,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "sarmiento-480-ida",
+      "lineId": "sarmiento",
+      "routeName": "Sarmiento",
+      "headsign": "Cabecera",
+      "startsAtMinute": 480,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "sarmiento-480-vuelta",
+      "lineId": "sarmiento",
+      "routeName": "Sarmiento",
+      "headsign": "Retiro",
+      "startsAtMinute": 480,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "sarmiento-500-ida",
+      "lineId": "sarmiento",
+      "routeName": "Sarmiento",
+      "headsign": "Cabecera",
+      "startsAtMinute": 500,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "sarmiento-500-vuelta",
+      "lineId": "sarmiento",
+      "routeName": "Sarmiento",
+      "headsign": "Retiro",
+      "startsAtMinute": 500,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "sarmiento-520-ida",
+      "lineId": "sarmiento",
+      "routeName": "Sarmiento",
+      "headsign": "Cabecera",
+      "startsAtMinute": 520,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "sarmiento-520-vuelta",
+      "lineId": "sarmiento",
+      "routeName": "Sarmiento",
+      "headsign": "Retiro",
+      "startsAtMinute": 520,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "sarmiento-540-ida",
+      "lineId": "sarmiento",
+      "routeName": "Sarmiento",
+      "headsign": "Cabecera",
+      "startsAtMinute": 540,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "sarmiento-540-vuelta",
+      "lineId": "sarmiento",
+      "routeName": "Sarmiento",
+      "headsign": "Retiro",
+      "startsAtMinute": 540,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "sarmiento-560-ida",
+      "lineId": "sarmiento",
+      "routeName": "Sarmiento",
+      "headsign": "Cabecera",
+      "startsAtMinute": 560,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "sarmiento-560-vuelta",
+      "lineId": "sarmiento",
+      "routeName": "Sarmiento",
+      "headsign": "Retiro",
+      "startsAtMinute": 560,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "sarmiento-580-ida",
+      "lineId": "sarmiento",
+      "routeName": "Sarmiento",
+      "headsign": "Cabecera",
+      "startsAtMinute": 580,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "sarmiento-580-vuelta",
+      "lineId": "sarmiento",
+      "routeName": "Sarmiento",
+      "headsign": "Retiro",
+      "startsAtMinute": 580,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "sarmiento-600-ida",
+      "lineId": "sarmiento",
+      "routeName": "Sarmiento",
+      "headsign": "Cabecera",
+      "startsAtMinute": 600,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "sarmiento-600-vuelta",
+      "lineId": "sarmiento",
+      "routeName": "Sarmiento",
+      "headsign": "Retiro",
+      "startsAtMinute": 600,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "sarmiento-620-ida",
+      "lineId": "sarmiento",
+      "routeName": "Sarmiento",
+      "headsign": "Cabecera",
+      "startsAtMinute": 620,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "sarmiento-620-vuelta",
+      "lineId": "sarmiento",
+      "routeName": "Sarmiento",
+      "headsign": "Retiro",
+      "startsAtMinute": 620,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "sarmiento-640-ida",
+      "lineId": "sarmiento",
+      "routeName": "Sarmiento",
+      "headsign": "Cabecera",
+      "startsAtMinute": 640,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "sarmiento-640-vuelta",
+      "lineId": "sarmiento",
+      "routeName": "Sarmiento",
+      "headsign": "Retiro",
+      "startsAtMinute": 640,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "sarmiento-660-ida",
+      "lineId": "sarmiento",
+      "routeName": "Sarmiento",
+      "headsign": "Cabecera",
+      "startsAtMinute": 660,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "sarmiento-660-vuelta",
+      "lineId": "sarmiento",
+      "routeName": "Sarmiento",
+      "headsign": "Retiro",
+      "startsAtMinute": 660,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "sarmiento-680-ida",
+      "lineId": "sarmiento",
+      "routeName": "Sarmiento",
+      "headsign": "Cabecera",
+      "startsAtMinute": 680,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "sarmiento-680-vuelta",
+      "lineId": "sarmiento",
+      "routeName": "Sarmiento",
+      "headsign": "Retiro",
+      "startsAtMinute": 680,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "sarmiento-700-ida",
+      "lineId": "sarmiento",
+      "routeName": "Sarmiento",
+      "headsign": "Cabecera",
+      "startsAtMinute": 700,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "sarmiento-700-vuelta",
+      "lineId": "sarmiento",
+      "routeName": "Sarmiento",
+      "headsign": "Retiro",
+      "startsAtMinute": 700,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "sarmiento-720-ida",
+      "lineId": "sarmiento",
+      "routeName": "Sarmiento",
+      "headsign": "Cabecera",
+      "startsAtMinute": 720,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "sarmiento-720-vuelta",
+      "lineId": "sarmiento",
+      "routeName": "Sarmiento",
+      "headsign": "Retiro",
+      "startsAtMinute": 720,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "sarmiento-740-ida",
+      "lineId": "sarmiento",
+      "routeName": "Sarmiento",
+      "headsign": "Cabecera",
+      "startsAtMinute": 740,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "sarmiento-740-vuelta",
+      "lineId": "sarmiento",
+      "routeName": "Sarmiento",
+      "headsign": "Retiro",
+      "startsAtMinute": 740,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "sarmiento-760-ida",
+      "lineId": "sarmiento",
+      "routeName": "Sarmiento",
+      "headsign": "Cabecera",
+      "startsAtMinute": 760,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "sarmiento-760-vuelta",
+      "lineId": "sarmiento",
+      "routeName": "Sarmiento",
+      "headsign": "Retiro",
+      "startsAtMinute": 760,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "sarmiento-780-ida",
+      "lineId": "sarmiento",
+      "routeName": "Sarmiento",
+      "headsign": "Cabecera",
+      "startsAtMinute": 780,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "sarmiento-780-vuelta",
+      "lineId": "sarmiento",
+      "routeName": "Sarmiento",
+      "headsign": "Retiro",
+      "startsAtMinute": 780,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "sarmiento-800-ida",
+      "lineId": "sarmiento",
+      "routeName": "Sarmiento",
+      "headsign": "Cabecera",
+      "startsAtMinute": 800,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "sarmiento-800-vuelta",
+      "lineId": "sarmiento",
+      "routeName": "Sarmiento",
+      "headsign": "Retiro",
+      "startsAtMinute": 800,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "sarmiento-820-ida",
+      "lineId": "sarmiento",
+      "routeName": "Sarmiento",
+      "headsign": "Cabecera",
+      "startsAtMinute": 820,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "sarmiento-820-vuelta",
+      "lineId": "sarmiento",
+      "routeName": "Sarmiento",
+      "headsign": "Retiro",
+      "startsAtMinute": 820,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "sarmiento-840-ida",
+      "lineId": "sarmiento",
+      "routeName": "Sarmiento",
+      "headsign": "Cabecera",
+      "startsAtMinute": 840,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "sarmiento-840-vuelta",
+      "lineId": "sarmiento",
+      "routeName": "Sarmiento",
+      "headsign": "Retiro",
+      "startsAtMinute": 840,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "sarmiento-860-ida",
+      "lineId": "sarmiento",
+      "routeName": "Sarmiento",
+      "headsign": "Cabecera",
+      "startsAtMinute": 860,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "sarmiento-860-vuelta",
+      "lineId": "sarmiento",
+      "routeName": "Sarmiento",
+      "headsign": "Retiro",
+      "startsAtMinute": 860,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "sarmiento-880-ida",
+      "lineId": "sarmiento",
+      "routeName": "Sarmiento",
+      "headsign": "Cabecera",
+      "startsAtMinute": 880,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "sarmiento-880-vuelta",
+      "lineId": "sarmiento",
+      "routeName": "Sarmiento",
+      "headsign": "Retiro",
+      "startsAtMinute": 880,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "sarmiento-900-ida",
+      "lineId": "sarmiento",
+      "routeName": "Sarmiento",
+      "headsign": "Cabecera",
+      "startsAtMinute": 900,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "sarmiento-900-vuelta",
+      "lineId": "sarmiento",
+      "routeName": "Sarmiento",
+      "headsign": "Retiro",
+      "startsAtMinute": 900,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "sarmiento-920-ida",
+      "lineId": "sarmiento",
+      "routeName": "Sarmiento",
+      "headsign": "Cabecera",
+      "startsAtMinute": 920,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "sarmiento-920-vuelta",
+      "lineId": "sarmiento",
+      "routeName": "Sarmiento",
+      "headsign": "Retiro",
+      "startsAtMinute": 920,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "sarmiento-940-ida",
+      "lineId": "sarmiento",
+      "routeName": "Sarmiento",
+      "headsign": "Cabecera",
+      "startsAtMinute": 940,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "sarmiento-940-vuelta",
+      "lineId": "sarmiento",
+      "routeName": "Sarmiento",
+      "headsign": "Retiro",
+      "startsAtMinute": 940,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "sarmiento-960-ida",
+      "lineId": "sarmiento",
+      "routeName": "Sarmiento",
+      "headsign": "Cabecera",
+      "startsAtMinute": 960,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "sarmiento-960-vuelta",
+      "lineId": "sarmiento",
+      "routeName": "Sarmiento",
+      "headsign": "Retiro",
+      "startsAtMinute": 960,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "sarmiento-980-ida",
+      "lineId": "sarmiento",
+      "routeName": "Sarmiento",
+      "headsign": "Cabecera",
+      "startsAtMinute": 980,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "sarmiento-980-vuelta",
+      "lineId": "sarmiento",
+      "routeName": "Sarmiento",
+      "headsign": "Retiro",
+      "startsAtMinute": 980,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "sarmiento-1000-ida",
+      "lineId": "sarmiento",
+      "routeName": "Sarmiento",
+      "headsign": "Cabecera",
+      "startsAtMinute": 1000,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "sarmiento-1000-vuelta",
+      "lineId": "sarmiento",
+      "routeName": "Sarmiento",
+      "headsign": "Retiro",
+      "startsAtMinute": 1000,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "sarmiento-1020-ida",
+      "lineId": "sarmiento",
+      "routeName": "Sarmiento",
+      "headsign": "Cabecera",
+      "startsAtMinute": 1020,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "sarmiento-1020-vuelta",
+      "lineId": "sarmiento",
+      "routeName": "Sarmiento",
+      "headsign": "Retiro",
+      "startsAtMinute": 1020,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "sarmiento-1040-ida",
+      "lineId": "sarmiento",
+      "routeName": "Sarmiento",
+      "headsign": "Cabecera",
+      "startsAtMinute": 1040,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "sarmiento-1040-vuelta",
+      "lineId": "sarmiento",
+      "routeName": "Sarmiento",
+      "headsign": "Retiro",
+      "startsAtMinute": 1040,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "sarmiento-1060-ida",
+      "lineId": "sarmiento",
+      "routeName": "Sarmiento",
+      "headsign": "Cabecera",
+      "startsAtMinute": 1060,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "sarmiento-1060-vuelta",
+      "lineId": "sarmiento",
+      "routeName": "Sarmiento",
+      "headsign": "Retiro",
+      "startsAtMinute": 1060,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "sarmiento-1080-ida",
+      "lineId": "sarmiento",
+      "routeName": "Sarmiento",
+      "headsign": "Cabecera",
+      "startsAtMinute": 1080,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "sarmiento-1080-vuelta",
+      "lineId": "sarmiento",
+      "routeName": "Sarmiento",
+      "headsign": "Retiro",
+      "startsAtMinute": 1080,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "sarmiento-1100-ida",
+      "lineId": "sarmiento",
+      "routeName": "Sarmiento",
+      "headsign": "Cabecera",
+      "startsAtMinute": 1100,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "sarmiento-1100-vuelta",
+      "lineId": "sarmiento",
+      "routeName": "Sarmiento",
+      "headsign": "Retiro",
+      "startsAtMinute": 1100,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "sarmiento-1120-ida",
+      "lineId": "sarmiento",
+      "routeName": "Sarmiento",
+      "headsign": "Cabecera",
+      "startsAtMinute": 1120,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "sarmiento-1120-vuelta",
+      "lineId": "sarmiento",
+      "routeName": "Sarmiento",
+      "headsign": "Retiro",
+      "startsAtMinute": 1120,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "sarmiento-1140-ida",
+      "lineId": "sarmiento",
+      "routeName": "Sarmiento",
+      "headsign": "Cabecera",
+      "startsAtMinute": 1140,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "sarmiento-1140-vuelta",
+      "lineId": "sarmiento",
+      "routeName": "Sarmiento",
+      "headsign": "Retiro",
+      "startsAtMinute": 1140,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "sarmiento-1160-ida",
+      "lineId": "sarmiento",
+      "routeName": "Sarmiento",
+      "headsign": "Cabecera",
+      "startsAtMinute": 1160,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "sarmiento-1160-vuelta",
+      "lineId": "sarmiento",
+      "routeName": "Sarmiento",
+      "headsign": "Retiro",
+      "startsAtMinute": 1160,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "sarmiento-1180-ida",
+      "lineId": "sarmiento",
+      "routeName": "Sarmiento",
+      "headsign": "Cabecera",
+      "startsAtMinute": 1180,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "sarmiento-1180-vuelta",
+      "lineId": "sarmiento",
+      "routeName": "Sarmiento",
+      "headsign": "Retiro",
+      "startsAtMinute": 1180,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "sarmiento-1200-ida",
+      "lineId": "sarmiento",
+      "routeName": "Sarmiento",
+      "headsign": "Cabecera",
+      "startsAtMinute": 1200,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "sarmiento-1200-vuelta",
+      "lineId": "sarmiento",
+      "routeName": "Sarmiento",
+      "headsign": "Retiro",
+      "startsAtMinute": 1200,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "sarmiento-1220-ida",
+      "lineId": "sarmiento",
+      "routeName": "Sarmiento",
+      "headsign": "Cabecera",
+      "startsAtMinute": 1220,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "sarmiento-1220-vuelta",
+      "lineId": "sarmiento",
+      "routeName": "Sarmiento",
+      "headsign": "Retiro",
+      "startsAtMinute": 1220,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "sarmiento-1240-ida",
+      "lineId": "sarmiento",
+      "routeName": "Sarmiento",
+      "headsign": "Cabecera",
+      "startsAtMinute": 1240,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "sarmiento-1240-vuelta",
+      "lineId": "sarmiento",
+      "routeName": "Sarmiento",
+      "headsign": "Retiro",
+      "startsAtMinute": 1240,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "sarmiento-1260-ida",
+      "lineId": "sarmiento",
+      "routeName": "Sarmiento",
+      "headsign": "Cabecera",
+      "startsAtMinute": 1260,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "sarmiento-1260-vuelta",
+      "lineId": "sarmiento",
+      "routeName": "Sarmiento",
+      "headsign": "Retiro",
+      "startsAtMinute": 1260,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "sarmiento-1280-ida",
+      "lineId": "sarmiento",
+      "routeName": "Sarmiento",
+      "headsign": "Cabecera",
+      "startsAtMinute": 1280,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "sarmiento-1280-vuelta",
+      "lineId": "sarmiento",
+      "routeName": "Sarmiento",
+      "headsign": "Retiro",
+      "startsAtMinute": 1280,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "sarmiento-1300-ida",
+      "lineId": "sarmiento",
+      "routeName": "Sarmiento",
+      "headsign": "Cabecera",
+      "startsAtMinute": 1300,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "sarmiento-1300-vuelta",
+      "lineId": "sarmiento",
+      "routeName": "Sarmiento",
+      "headsign": "Retiro",
+      "startsAtMinute": 1300,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "sarmiento-1320-ida",
+      "lineId": "sarmiento",
+      "routeName": "Sarmiento",
+      "headsign": "Cabecera",
+      "startsAtMinute": 1320,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "sarmiento-1320-vuelta",
+      "lineId": "sarmiento",
+      "routeName": "Sarmiento",
+      "headsign": "Retiro",
+      "startsAtMinute": 1320,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "sarmiento-1340-ida",
+      "lineId": "sarmiento",
+      "routeName": "Sarmiento",
+      "headsign": "Cabecera",
+      "startsAtMinute": 1340,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "sarmiento-1340-vuelta",
+      "lineId": "sarmiento",
+      "routeName": "Sarmiento",
+      "headsign": "Retiro",
+      "startsAtMinute": 1340,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "sarmiento-1360-ida",
+      "lineId": "sarmiento",
+      "routeName": "Sarmiento",
+      "headsign": "Cabecera",
+      "startsAtMinute": 1360,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "sarmiento-1360-vuelta",
+      "lineId": "sarmiento",
+      "routeName": "Sarmiento",
+      "headsign": "Retiro",
+      "startsAtMinute": 1360,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "sarmiento-1380-ida",
+      "lineId": "sarmiento",
+      "routeName": "Sarmiento",
+      "headsign": "Cabecera",
+      "startsAtMinute": 1380,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "sarmiento-1380-vuelta",
+      "lineId": "sarmiento",
+      "routeName": "Sarmiento",
+      "headsign": "Retiro",
+      "startsAtMinute": 1380,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "sarmiento-1400-ida",
+      "lineId": "sarmiento",
+      "routeName": "Sarmiento",
+      "headsign": "Cabecera",
+      "startsAtMinute": 1400,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "sarmiento-1400-vuelta",
+      "lineId": "sarmiento",
+      "routeName": "Sarmiento",
+      "headsign": "Retiro",
+      "startsAtMinute": 1400,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "sarmiento-1420-ida",
+      "lineId": "sarmiento",
+      "routeName": "Sarmiento",
+      "headsign": "Cabecera",
+      "startsAtMinute": 1420,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "sarmiento-1420-vuelta",
+      "lineId": "sarmiento",
+      "routeName": "Sarmiento",
+      "headsign": "Retiro",
+      "startsAtMinute": 1420,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "mitre-300-ida",
+      "lineId": "mitre",
+      "routeName": "Mitre",
+      "headsign": "Cabecera",
+      "startsAtMinute": 300,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "mitre-300-vuelta",
+      "lineId": "mitre",
+      "routeName": "Mitre",
+      "headsign": "Retiro",
+      "startsAtMinute": 300,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "mitre-320-ida",
+      "lineId": "mitre",
+      "routeName": "Mitre",
+      "headsign": "Cabecera",
+      "startsAtMinute": 320,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "mitre-320-vuelta",
+      "lineId": "mitre",
+      "routeName": "Mitre",
+      "headsign": "Retiro",
+      "startsAtMinute": 320,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "mitre-340-ida",
+      "lineId": "mitre",
+      "routeName": "Mitre",
+      "headsign": "Cabecera",
+      "startsAtMinute": 340,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "mitre-340-vuelta",
+      "lineId": "mitre",
+      "routeName": "Mitre",
+      "headsign": "Retiro",
+      "startsAtMinute": 340,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "mitre-360-ida",
+      "lineId": "mitre",
+      "routeName": "Mitre",
+      "headsign": "Cabecera",
+      "startsAtMinute": 360,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "mitre-360-vuelta",
+      "lineId": "mitre",
+      "routeName": "Mitre",
+      "headsign": "Retiro",
+      "startsAtMinute": 360,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "mitre-380-ida",
+      "lineId": "mitre",
+      "routeName": "Mitre",
+      "headsign": "Cabecera",
+      "startsAtMinute": 380,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "mitre-380-vuelta",
+      "lineId": "mitre",
+      "routeName": "Mitre",
+      "headsign": "Retiro",
+      "startsAtMinute": 380,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "mitre-400-ida",
+      "lineId": "mitre",
+      "routeName": "Mitre",
+      "headsign": "Cabecera",
+      "startsAtMinute": 400,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "mitre-400-vuelta",
+      "lineId": "mitre",
+      "routeName": "Mitre",
+      "headsign": "Retiro",
+      "startsAtMinute": 400,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "mitre-420-ida",
+      "lineId": "mitre",
+      "routeName": "Mitre",
+      "headsign": "Cabecera",
+      "startsAtMinute": 420,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "mitre-420-vuelta",
+      "lineId": "mitre",
+      "routeName": "Mitre",
+      "headsign": "Retiro",
+      "startsAtMinute": 420,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "mitre-440-ida",
+      "lineId": "mitre",
+      "routeName": "Mitre",
+      "headsign": "Cabecera",
+      "startsAtMinute": 440,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "mitre-440-vuelta",
+      "lineId": "mitre",
+      "routeName": "Mitre",
+      "headsign": "Retiro",
+      "startsAtMinute": 440,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "mitre-460-ida",
+      "lineId": "mitre",
+      "routeName": "Mitre",
+      "headsign": "Cabecera",
+      "startsAtMinute": 460,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "mitre-460-vuelta",
+      "lineId": "mitre",
+      "routeName": "Mitre",
+      "headsign": "Retiro",
+      "startsAtMinute": 460,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "mitre-480-ida",
+      "lineId": "mitre",
+      "routeName": "Mitre",
+      "headsign": "Cabecera",
+      "startsAtMinute": 480,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "mitre-480-vuelta",
+      "lineId": "mitre",
+      "routeName": "Mitre",
+      "headsign": "Retiro",
+      "startsAtMinute": 480,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "mitre-500-ida",
+      "lineId": "mitre",
+      "routeName": "Mitre",
+      "headsign": "Cabecera",
+      "startsAtMinute": 500,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "mitre-500-vuelta",
+      "lineId": "mitre",
+      "routeName": "Mitre",
+      "headsign": "Retiro",
+      "startsAtMinute": 500,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "mitre-520-ida",
+      "lineId": "mitre",
+      "routeName": "Mitre",
+      "headsign": "Cabecera",
+      "startsAtMinute": 520,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "mitre-520-vuelta",
+      "lineId": "mitre",
+      "routeName": "Mitre",
+      "headsign": "Retiro",
+      "startsAtMinute": 520,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "mitre-540-ida",
+      "lineId": "mitre",
+      "routeName": "Mitre",
+      "headsign": "Cabecera",
+      "startsAtMinute": 540,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "mitre-540-vuelta",
+      "lineId": "mitre",
+      "routeName": "Mitre",
+      "headsign": "Retiro",
+      "startsAtMinute": 540,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "mitre-560-ida",
+      "lineId": "mitre",
+      "routeName": "Mitre",
+      "headsign": "Cabecera",
+      "startsAtMinute": 560,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "mitre-560-vuelta",
+      "lineId": "mitre",
+      "routeName": "Mitre",
+      "headsign": "Retiro",
+      "startsAtMinute": 560,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "mitre-580-ida",
+      "lineId": "mitre",
+      "routeName": "Mitre",
+      "headsign": "Cabecera",
+      "startsAtMinute": 580,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "mitre-580-vuelta",
+      "lineId": "mitre",
+      "routeName": "Mitre",
+      "headsign": "Retiro",
+      "startsAtMinute": 580,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "mitre-600-ida",
+      "lineId": "mitre",
+      "routeName": "Mitre",
+      "headsign": "Cabecera",
+      "startsAtMinute": 600,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "mitre-600-vuelta",
+      "lineId": "mitre",
+      "routeName": "Mitre",
+      "headsign": "Retiro",
+      "startsAtMinute": 600,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "mitre-620-ida",
+      "lineId": "mitre",
+      "routeName": "Mitre",
+      "headsign": "Cabecera",
+      "startsAtMinute": 620,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "mitre-620-vuelta",
+      "lineId": "mitre",
+      "routeName": "Mitre",
+      "headsign": "Retiro",
+      "startsAtMinute": 620,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "mitre-640-ida",
+      "lineId": "mitre",
+      "routeName": "Mitre",
+      "headsign": "Cabecera",
+      "startsAtMinute": 640,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "mitre-640-vuelta",
+      "lineId": "mitre",
+      "routeName": "Mitre",
+      "headsign": "Retiro",
+      "startsAtMinute": 640,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "mitre-660-ida",
+      "lineId": "mitre",
+      "routeName": "Mitre",
+      "headsign": "Cabecera",
+      "startsAtMinute": 660,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "mitre-660-vuelta",
+      "lineId": "mitre",
+      "routeName": "Mitre",
+      "headsign": "Retiro",
+      "startsAtMinute": 660,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "mitre-680-ida",
+      "lineId": "mitre",
+      "routeName": "Mitre",
+      "headsign": "Cabecera",
+      "startsAtMinute": 680,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "mitre-680-vuelta",
+      "lineId": "mitre",
+      "routeName": "Mitre",
+      "headsign": "Retiro",
+      "startsAtMinute": 680,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "mitre-700-ida",
+      "lineId": "mitre",
+      "routeName": "Mitre",
+      "headsign": "Cabecera",
+      "startsAtMinute": 700,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "mitre-700-vuelta",
+      "lineId": "mitre",
+      "routeName": "Mitre",
+      "headsign": "Retiro",
+      "startsAtMinute": 700,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "mitre-720-ida",
+      "lineId": "mitre",
+      "routeName": "Mitre",
+      "headsign": "Cabecera",
+      "startsAtMinute": 720,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "mitre-720-vuelta",
+      "lineId": "mitre",
+      "routeName": "Mitre",
+      "headsign": "Retiro",
+      "startsAtMinute": 720,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "mitre-740-ida",
+      "lineId": "mitre",
+      "routeName": "Mitre",
+      "headsign": "Cabecera",
+      "startsAtMinute": 740,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "mitre-740-vuelta",
+      "lineId": "mitre",
+      "routeName": "Mitre",
+      "headsign": "Retiro",
+      "startsAtMinute": 740,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "mitre-760-ida",
+      "lineId": "mitre",
+      "routeName": "Mitre",
+      "headsign": "Cabecera",
+      "startsAtMinute": 760,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "mitre-760-vuelta",
+      "lineId": "mitre",
+      "routeName": "Mitre",
+      "headsign": "Retiro",
+      "startsAtMinute": 760,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "mitre-780-ida",
+      "lineId": "mitre",
+      "routeName": "Mitre",
+      "headsign": "Cabecera",
+      "startsAtMinute": 780,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "mitre-780-vuelta",
+      "lineId": "mitre",
+      "routeName": "Mitre",
+      "headsign": "Retiro",
+      "startsAtMinute": 780,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "mitre-800-ida",
+      "lineId": "mitre",
+      "routeName": "Mitre",
+      "headsign": "Cabecera",
+      "startsAtMinute": 800,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "mitre-800-vuelta",
+      "lineId": "mitre",
+      "routeName": "Mitre",
+      "headsign": "Retiro",
+      "startsAtMinute": 800,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "mitre-820-ida",
+      "lineId": "mitre",
+      "routeName": "Mitre",
+      "headsign": "Cabecera",
+      "startsAtMinute": 820,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "mitre-820-vuelta",
+      "lineId": "mitre",
+      "routeName": "Mitre",
+      "headsign": "Retiro",
+      "startsAtMinute": 820,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "mitre-840-ida",
+      "lineId": "mitre",
+      "routeName": "Mitre",
+      "headsign": "Cabecera",
+      "startsAtMinute": 840,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "mitre-840-vuelta",
+      "lineId": "mitre",
+      "routeName": "Mitre",
+      "headsign": "Retiro",
+      "startsAtMinute": 840,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "mitre-860-ida",
+      "lineId": "mitre",
+      "routeName": "Mitre",
+      "headsign": "Cabecera",
+      "startsAtMinute": 860,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "mitre-860-vuelta",
+      "lineId": "mitre",
+      "routeName": "Mitre",
+      "headsign": "Retiro",
+      "startsAtMinute": 860,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "mitre-880-ida",
+      "lineId": "mitre",
+      "routeName": "Mitre",
+      "headsign": "Cabecera",
+      "startsAtMinute": 880,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "mitre-880-vuelta",
+      "lineId": "mitre",
+      "routeName": "Mitre",
+      "headsign": "Retiro",
+      "startsAtMinute": 880,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "mitre-900-ida",
+      "lineId": "mitre",
+      "routeName": "Mitre",
+      "headsign": "Cabecera",
+      "startsAtMinute": 900,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "mitre-900-vuelta",
+      "lineId": "mitre",
+      "routeName": "Mitre",
+      "headsign": "Retiro",
+      "startsAtMinute": 900,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "mitre-920-ida",
+      "lineId": "mitre",
+      "routeName": "Mitre",
+      "headsign": "Cabecera",
+      "startsAtMinute": 920,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "mitre-920-vuelta",
+      "lineId": "mitre",
+      "routeName": "Mitre",
+      "headsign": "Retiro",
+      "startsAtMinute": 920,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "mitre-940-ida",
+      "lineId": "mitre",
+      "routeName": "Mitre",
+      "headsign": "Cabecera",
+      "startsAtMinute": 940,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "mitre-940-vuelta",
+      "lineId": "mitre",
+      "routeName": "Mitre",
+      "headsign": "Retiro",
+      "startsAtMinute": 940,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "mitre-960-ida",
+      "lineId": "mitre",
+      "routeName": "Mitre",
+      "headsign": "Cabecera",
+      "startsAtMinute": 960,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "mitre-960-vuelta",
+      "lineId": "mitre",
+      "routeName": "Mitre",
+      "headsign": "Retiro",
+      "startsAtMinute": 960,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "mitre-980-ida",
+      "lineId": "mitre",
+      "routeName": "Mitre",
+      "headsign": "Cabecera",
+      "startsAtMinute": 980,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "mitre-980-vuelta",
+      "lineId": "mitre",
+      "routeName": "Mitre",
+      "headsign": "Retiro",
+      "startsAtMinute": 980,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "mitre-1000-ida",
+      "lineId": "mitre",
+      "routeName": "Mitre",
+      "headsign": "Cabecera",
+      "startsAtMinute": 1000,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "mitre-1000-vuelta",
+      "lineId": "mitre",
+      "routeName": "Mitre",
+      "headsign": "Retiro",
+      "startsAtMinute": 1000,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "mitre-1020-ida",
+      "lineId": "mitre",
+      "routeName": "Mitre",
+      "headsign": "Cabecera",
+      "startsAtMinute": 1020,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "mitre-1020-vuelta",
+      "lineId": "mitre",
+      "routeName": "Mitre",
+      "headsign": "Retiro",
+      "startsAtMinute": 1020,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "mitre-1040-ida",
+      "lineId": "mitre",
+      "routeName": "Mitre",
+      "headsign": "Cabecera",
+      "startsAtMinute": 1040,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "mitre-1040-vuelta",
+      "lineId": "mitre",
+      "routeName": "Mitre",
+      "headsign": "Retiro",
+      "startsAtMinute": 1040,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "mitre-1060-ida",
+      "lineId": "mitre",
+      "routeName": "Mitre",
+      "headsign": "Cabecera",
+      "startsAtMinute": 1060,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "mitre-1060-vuelta",
+      "lineId": "mitre",
+      "routeName": "Mitre",
+      "headsign": "Retiro",
+      "startsAtMinute": 1060,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "mitre-1080-ida",
+      "lineId": "mitre",
+      "routeName": "Mitre",
+      "headsign": "Cabecera",
+      "startsAtMinute": 1080,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "mitre-1080-vuelta",
+      "lineId": "mitre",
+      "routeName": "Mitre",
+      "headsign": "Retiro",
+      "startsAtMinute": 1080,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "mitre-1100-ida",
+      "lineId": "mitre",
+      "routeName": "Mitre",
+      "headsign": "Cabecera",
+      "startsAtMinute": 1100,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "mitre-1100-vuelta",
+      "lineId": "mitre",
+      "routeName": "Mitre",
+      "headsign": "Retiro",
+      "startsAtMinute": 1100,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "mitre-1120-ida",
+      "lineId": "mitre",
+      "routeName": "Mitre",
+      "headsign": "Cabecera",
+      "startsAtMinute": 1120,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "mitre-1120-vuelta",
+      "lineId": "mitre",
+      "routeName": "Mitre",
+      "headsign": "Retiro",
+      "startsAtMinute": 1120,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "mitre-1140-ida",
+      "lineId": "mitre",
+      "routeName": "Mitre",
+      "headsign": "Cabecera",
+      "startsAtMinute": 1140,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "mitre-1140-vuelta",
+      "lineId": "mitre",
+      "routeName": "Mitre",
+      "headsign": "Retiro",
+      "startsAtMinute": 1140,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "mitre-1160-ida",
+      "lineId": "mitre",
+      "routeName": "Mitre",
+      "headsign": "Cabecera",
+      "startsAtMinute": 1160,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "mitre-1160-vuelta",
+      "lineId": "mitre",
+      "routeName": "Mitre",
+      "headsign": "Retiro",
+      "startsAtMinute": 1160,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "mitre-1180-ida",
+      "lineId": "mitre",
+      "routeName": "Mitre",
+      "headsign": "Cabecera",
+      "startsAtMinute": 1180,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "mitre-1180-vuelta",
+      "lineId": "mitre",
+      "routeName": "Mitre",
+      "headsign": "Retiro",
+      "startsAtMinute": 1180,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "mitre-1200-ida",
+      "lineId": "mitre",
+      "routeName": "Mitre",
+      "headsign": "Cabecera",
+      "startsAtMinute": 1200,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "mitre-1200-vuelta",
+      "lineId": "mitre",
+      "routeName": "Mitre",
+      "headsign": "Retiro",
+      "startsAtMinute": 1200,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "mitre-1220-ida",
+      "lineId": "mitre",
+      "routeName": "Mitre",
+      "headsign": "Cabecera",
+      "startsAtMinute": 1220,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "mitre-1220-vuelta",
+      "lineId": "mitre",
+      "routeName": "Mitre",
+      "headsign": "Retiro",
+      "startsAtMinute": 1220,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "mitre-1240-ida",
+      "lineId": "mitre",
+      "routeName": "Mitre",
+      "headsign": "Cabecera",
+      "startsAtMinute": 1240,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "mitre-1240-vuelta",
+      "lineId": "mitre",
+      "routeName": "Mitre",
+      "headsign": "Retiro",
+      "startsAtMinute": 1240,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "mitre-1260-ida",
+      "lineId": "mitre",
+      "routeName": "Mitre",
+      "headsign": "Cabecera",
+      "startsAtMinute": 1260,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "mitre-1260-vuelta",
+      "lineId": "mitre",
+      "routeName": "Mitre",
+      "headsign": "Retiro",
+      "startsAtMinute": 1260,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "mitre-1280-ida",
+      "lineId": "mitre",
+      "routeName": "Mitre",
+      "headsign": "Cabecera",
+      "startsAtMinute": 1280,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "mitre-1280-vuelta",
+      "lineId": "mitre",
+      "routeName": "Mitre",
+      "headsign": "Retiro",
+      "startsAtMinute": 1280,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "mitre-1300-ida",
+      "lineId": "mitre",
+      "routeName": "Mitre",
+      "headsign": "Cabecera",
+      "startsAtMinute": 1300,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "mitre-1300-vuelta",
+      "lineId": "mitre",
+      "routeName": "Mitre",
+      "headsign": "Retiro",
+      "startsAtMinute": 1300,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "mitre-1320-ida",
+      "lineId": "mitre",
+      "routeName": "Mitre",
+      "headsign": "Cabecera",
+      "startsAtMinute": 1320,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "mitre-1320-vuelta",
+      "lineId": "mitre",
+      "routeName": "Mitre",
+      "headsign": "Retiro",
+      "startsAtMinute": 1320,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "mitre-1340-ida",
+      "lineId": "mitre",
+      "routeName": "Mitre",
+      "headsign": "Cabecera",
+      "startsAtMinute": 1340,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "mitre-1340-vuelta",
+      "lineId": "mitre",
+      "routeName": "Mitre",
+      "headsign": "Retiro",
+      "startsAtMinute": 1340,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "mitre-1360-ida",
+      "lineId": "mitre",
+      "routeName": "Mitre",
+      "headsign": "Cabecera",
+      "startsAtMinute": 1360,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "mitre-1360-vuelta",
+      "lineId": "mitre",
+      "routeName": "Mitre",
+      "headsign": "Retiro",
+      "startsAtMinute": 1360,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "mitre-1380-ida",
+      "lineId": "mitre",
+      "routeName": "Mitre",
+      "headsign": "Cabecera",
+      "startsAtMinute": 1380,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "mitre-1380-vuelta",
+      "lineId": "mitre",
+      "routeName": "Mitre",
+      "headsign": "Retiro",
+      "startsAtMinute": 1380,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "mitre-1400-ida",
+      "lineId": "mitre",
+      "routeName": "Mitre",
+      "headsign": "Cabecera",
+      "startsAtMinute": 1400,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "mitre-1400-vuelta",
+      "lineId": "mitre",
+      "routeName": "Mitre",
+      "headsign": "Retiro",
+      "startsAtMinute": 1400,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "mitre-1420-ida",
+      "lineId": "mitre",
+      "routeName": "Mitre",
+      "headsign": "Cabecera",
+      "startsAtMinute": 1420,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "mitre-1420-vuelta",
+      "lineId": "mitre",
+      "routeName": "Mitre",
+      "headsign": "Retiro",
+      "startsAtMinute": 1420,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "roca-300-ida",
+      "lineId": "roca",
+      "routeName": "Roca",
+      "headsign": "Cabecera",
+      "startsAtMinute": 300,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "roca-300-vuelta",
+      "lineId": "roca",
+      "routeName": "Roca",
+      "headsign": "Retiro",
+      "startsAtMinute": 300,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "roca-320-ida",
+      "lineId": "roca",
+      "routeName": "Roca",
+      "headsign": "Cabecera",
+      "startsAtMinute": 320,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "roca-320-vuelta",
+      "lineId": "roca",
+      "routeName": "Roca",
+      "headsign": "Retiro",
+      "startsAtMinute": 320,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "roca-340-ida",
+      "lineId": "roca",
+      "routeName": "Roca",
+      "headsign": "Cabecera",
+      "startsAtMinute": 340,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "roca-340-vuelta",
+      "lineId": "roca",
+      "routeName": "Roca",
+      "headsign": "Retiro",
+      "startsAtMinute": 340,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "roca-360-ida",
+      "lineId": "roca",
+      "routeName": "Roca",
+      "headsign": "Cabecera",
+      "startsAtMinute": 360,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "roca-360-vuelta",
+      "lineId": "roca",
+      "routeName": "Roca",
+      "headsign": "Retiro",
+      "startsAtMinute": 360,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "roca-380-ida",
+      "lineId": "roca",
+      "routeName": "Roca",
+      "headsign": "Cabecera",
+      "startsAtMinute": 380,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "roca-380-vuelta",
+      "lineId": "roca",
+      "routeName": "Roca",
+      "headsign": "Retiro",
+      "startsAtMinute": 380,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "roca-400-ida",
+      "lineId": "roca",
+      "routeName": "Roca",
+      "headsign": "Cabecera",
+      "startsAtMinute": 400,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "roca-400-vuelta",
+      "lineId": "roca",
+      "routeName": "Roca",
+      "headsign": "Retiro",
+      "startsAtMinute": 400,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "roca-420-ida",
+      "lineId": "roca",
+      "routeName": "Roca",
+      "headsign": "Cabecera",
+      "startsAtMinute": 420,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "roca-420-vuelta",
+      "lineId": "roca",
+      "routeName": "Roca",
+      "headsign": "Retiro",
+      "startsAtMinute": 420,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "roca-440-ida",
+      "lineId": "roca",
+      "routeName": "Roca",
+      "headsign": "Cabecera",
+      "startsAtMinute": 440,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "roca-440-vuelta",
+      "lineId": "roca",
+      "routeName": "Roca",
+      "headsign": "Retiro",
+      "startsAtMinute": 440,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "roca-460-ida",
+      "lineId": "roca",
+      "routeName": "Roca",
+      "headsign": "Cabecera",
+      "startsAtMinute": 460,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "roca-460-vuelta",
+      "lineId": "roca",
+      "routeName": "Roca",
+      "headsign": "Retiro",
+      "startsAtMinute": 460,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "roca-480-ida",
+      "lineId": "roca",
+      "routeName": "Roca",
+      "headsign": "Cabecera",
+      "startsAtMinute": 480,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "roca-480-vuelta",
+      "lineId": "roca",
+      "routeName": "Roca",
+      "headsign": "Retiro",
+      "startsAtMinute": 480,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "roca-500-ida",
+      "lineId": "roca",
+      "routeName": "Roca",
+      "headsign": "Cabecera",
+      "startsAtMinute": 500,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "roca-500-vuelta",
+      "lineId": "roca",
+      "routeName": "Roca",
+      "headsign": "Retiro",
+      "startsAtMinute": 500,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "roca-520-ida",
+      "lineId": "roca",
+      "routeName": "Roca",
+      "headsign": "Cabecera",
+      "startsAtMinute": 520,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "roca-520-vuelta",
+      "lineId": "roca",
+      "routeName": "Roca",
+      "headsign": "Retiro",
+      "startsAtMinute": 520,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "roca-540-ida",
+      "lineId": "roca",
+      "routeName": "Roca",
+      "headsign": "Cabecera",
+      "startsAtMinute": 540,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "roca-540-vuelta",
+      "lineId": "roca",
+      "routeName": "Roca",
+      "headsign": "Retiro",
+      "startsAtMinute": 540,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "roca-560-ida",
+      "lineId": "roca",
+      "routeName": "Roca",
+      "headsign": "Cabecera",
+      "startsAtMinute": 560,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "roca-560-vuelta",
+      "lineId": "roca",
+      "routeName": "Roca",
+      "headsign": "Retiro",
+      "startsAtMinute": 560,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "roca-580-ida",
+      "lineId": "roca",
+      "routeName": "Roca",
+      "headsign": "Cabecera",
+      "startsAtMinute": 580,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "roca-580-vuelta",
+      "lineId": "roca",
+      "routeName": "Roca",
+      "headsign": "Retiro",
+      "startsAtMinute": 580,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "roca-600-ida",
+      "lineId": "roca",
+      "routeName": "Roca",
+      "headsign": "Cabecera",
+      "startsAtMinute": 600,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "roca-600-vuelta",
+      "lineId": "roca",
+      "routeName": "Roca",
+      "headsign": "Retiro",
+      "startsAtMinute": 600,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "roca-620-ida",
+      "lineId": "roca",
+      "routeName": "Roca",
+      "headsign": "Cabecera",
+      "startsAtMinute": 620,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "roca-620-vuelta",
+      "lineId": "roca",
+      "routeName": "Roca",
+      "headsign": "Retiro",
+      "startsAtMinute": 620,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "roca-640-ida",
+      "lineId": "roca",
+      "routeName": "Roca",
+      "headsign": "Cabecera",
+      "startsAtMinute": 640,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "roca-640-vuelta",
+      "lineId": "roca",
+      "routeName": "Roca",
+      "headsign": "Retiro",
+      "startsAtMinute": 640,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "roca-660-ida",
+      "lineId": "roca",
+      "routeName": "Roca",
+      "headsign": "Cabecera",
+      "startsAtMinute": 660,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "roca-660-vuelta",
+      "lineId": "roca",
+      "routeName": "Roca",
+      "headsign": "Retiro",
+      "startsAtMinute": 660,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "roca-680-ida",
+      "lineId": "roca",
+      "routeName": "Roca",
+      "headsign": "Cabecera",
+      "startsAtMinute": 680,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "roca-680-vuelta",
+      "lineId": "roca",
+      "routeName": "Roca",
+      "headsign": "Retiro",
+      "startsAtMinute": 680,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "roca-700-ida",
+      "lineId": "roca",
+      "routeName": "Roca",
+      "headsign": "Cabecera",
+      "startsAtMinute": 700,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "roca-700-vuelta",
+      "lineId": "roca",
+      "routeName": "Roca",
+      "headsign": "Retiro",
+      "startsAtMinute": 700,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "roca-720-ida",
+      "lineId": "roca",
+      "routeName": "Roca",
+      "headsign": "Cabecera",
+      "startsAtMinute": 720,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "roca-720-vuelta",
+      "lineId": "roca",
+      "routeName": "Roca",
+      "headsign": "Retiro",
+      "startsAtMinute": 720,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "roca-740-ida",
+      "lineId": "roca",
+      "routeName": "Roca",
+      "headsign": "Cabecera",
+      "startsAtMinute": 740,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "roca-740-vuelta",
+      "lineId": "roca",
+      "routeName": "Roca",
+      "headsign": "Retiro",
+      "startsAtMinute": 740,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "roca-760-ida",
+      "lineId": "roca",
+      "routeName": "Roca",
+      "headsign": "Cabecera",
+      "startsAtMinute": 760,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "roca-760-vuelta",
+      "lineId": "roca",
+      "routeName": "Roca",
+      "headsign": "Retiro",
+      "startsAtMinute": 760,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "roca-780-ida",
+      "lineId": "roca",
+      "routeName": "Roca",
+      "headsign": "Cabecera",
+      "startsAtMinute": 780,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "roca-780-vuelta",
+      "lineId": "roca",
+      "routeName": "Roca",
+      "headsign": "Retiro",
+      "startsAtMinute": 780,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "roca-800-ida",
+      "lineId": "roca",
+      "routeName": "Roca",
+      "headsign": "Cabecera",
+      "startsAtMinute": 800,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "roca-800-vuelta",
+      "lineId": "roca",
+      "routeName": "Roca",
+      "headsign": "Retiro",
+      "startsAtMinute": 800,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "roca-820-ida",
+      "lineId": "roca",
+      "routeName": "Roca",
+      "headsign": "Cabecera",
+      "startsAtMinute": 820,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "roca-820-vuelta",
+      "lineId": "roca",
+      "routeName": "Roca",
+      "headsign": "Retiro",
+      "startsAtMinute": 820,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "roca-840-ida",
+      "lineId": "roca",
+      "routeName": "Roca",
+      "headsign": "Cabecera",
+      "startsAtMinute": 840,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "roca-840-vuelta",
+      "lineId": "roca",
+      "routeName": "Roca",
+      "headsign": "Retiro",
+      "startsAtMinute": 840,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "roca-860-ida",
+      "lineId": "roca",
+      "routeName": "Roca",
+      "headsign": "Cabecera",
+      "startsAtMinute": 860,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "roca-860-vuelta",
+      "lineId": "roca",
+      "routeName": "Roca",
+      "headsign": "Retiro",
+      "startsAtMinute": 860,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "roca-880-ida",
+      "lineId": "roca",
+      "routeName": "Roca",
+      "headsign": "Cabecera",
+      "startsAtMinute": 880,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "roca-880-vuelta",
+      "lineId": "roca",
+      "routeName": "Roca",
+      "headsign": "Retiro",
+      "startsAtMinute": 880,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "roca-900-ida",
+      "lineId": "roca",
+      "routeName": "Roca",
+      "headsign": "Cabecera",
+      "startsAtMinute": 900,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "roca-900-vuelta",
+      "lineId": "roca",
+      "routeName": "Roca",
+      "headsign": "Retiro",
+      "startsAtMinute": 900,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "roca-920-ida",
+      "lineId": "roca",
+      "routeName": "Roca",
+      "headsign": "Cabecera",
+      "startsAtMinute": 920,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "roca-920-vuelta",
+      "lineId": "roca",
+      "routeName": "Roca",
+      "headsign": "Retiro",
+      "startsAtMinute": 920,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "roca-940-ida",
+      "lineId": "roca",
+      "routeName": "Roca",
+      "headsign": "Cabecera",
+      "startsAtMinute": 940,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "roca-940-vuelta",
+      "lineId": "roca",
+      "routeName": "Roca",
+      "headsign": "Retiro",
+      "startsAtMinute": 940,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "roca-960-ida",
+      "lineId": "roca",
+      "routeName": "Roca",
+      "headsign": "Cabecera",
+      "startsAtMinute": 960,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "roca-960-vuelta",
+      "lineId": "roca",
+      "routeName": "Roca",
+      "headsign": "Retiro",
+      "startsAtMinute": 960,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "roca-980-ida",
+      "lineId": "roca",
+      "routeName": "Roca",
+      "headsign": "Cabecera",
+      "startsAtMinute": 980,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "roca-980-vuelta",
+      "lineId": "roca",
+      "routeName": "Roca",
+      "headsign": "Retiro",
+      "startsAtMinute": 980,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "roca-1000-ida",
+      "lineId": "roca",
+      "routeName": "Roca",
+      "headsign": "Cabecera",
+      "startsAtMinute": 1000,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "roca-1000-vuelta",
+      "lineId": "roca",
+      "routeName": "Roca",
+      "headsign": "Retiro",
+      "startsAtMinute": 1000,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "roca-1020-ida",
+      "lineId": "roca",
+      "routeName": "Roca",
+      "headsign": "Cabecera",
+      "startsAtMinute": 1020,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "roca-1020-vuelta",
+      "lineId": "roca",
+      "routeName": "Roca",
+      "headsign": "Retiro",
+      "startsAtMinute": 1020,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "roca-1040-ida",
+      "lineId": "roca",
+      "routeName": "Roca",
+      "headsign": "Cabecera",
+      "startsAtMinute": 1040,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "roca-1040-vuelta",
+      "lineId": "roca",
+      "routeName": "Roca",
+      "headsign": "Retiro",
+      "startsAtMinute": 1040,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "roca-1060-ida",
+      "lineId": "roca",
+      "routeName": "Roca",
+      "headsign": "Cabecera",
+      "startsAtMinute": 1060,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "roca-1060-vuelta",
+      "lineId": "roca",
+      "routeName": "Roca",
+      "headsign": "Retiro",
+      "startsAtMinute": 1060,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "roca-1080-ida",
+      "lineId": "roca",
+      "routeName": "Roca",
+      "headsign": "Cabecera",
+      "startsAtMinute": 1080,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "roca-1080-vuelta",
+      "lineId": "roca",
+      "routeName": "Roca",
+      "headsign": "Retiro",
+      "startsAtMinute": 1080,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "roca-1100-ida",
+      "lineId": "roca",
+      "routeName": "Roca",
+      "headsign": "Cabecera",
+      "startsAtMinute": 1100,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "roca-1100-vuelta",
+      "lineId": "roca",
+      "routeName": "Roca",
+      "headsign": "Retiro",
+      "startsAtMinute": 1100,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "roca-1120-ida",
+      "lineId": "roca",
+      "routeName": "Roca",
+      "headsign": "Cabecera",
+      "startsAtMinute": 1120,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "roca-1120-vuelta",
+      "lineId": "roca",
+      "routeName": "Roca",
+      "headsign": "Retiro",
+      "startsAtMinute": 1120,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "roca-1140-ida",
+      "lineId": "roca",
+      "routeName": "Roca",
+      "headsign": "Cabecera",
+      "startsAtMinute": 1140,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "roca-1140-vuelta",
+      "lineId": "roca",
+      "routeName": "Roca",
+      "headsign": "Retiro",
+      "startsAtMinute": 1140,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "roca-1160-ida",
+      "lineId": "roca",
+      "routeName": "Roca",
+      "headsign": "Cabecera",
+      "startsAtMinute": 1160,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "roca-1160-vuelta",
+      "lineId": "roca",
+      "routeName": "Roca",
+      "headsign": "Retiro",
+      "startsAtMinute": 1160,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "roca-1180-ida",
+      "lineId": "roca",
+      "routeName": "Roca",
+      "headsign": "Cabecera",
+      "startsAtMinute": 1180,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "roca-1180-vuelta",
+      "lineId": "roca",
+      "routeName": "Roca",
+      "headsign": "Retiro",
+      "startsAtMinute": 1180,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "roca-1200-ida",
+      "lineId": "roca",
+      "routeName": "Roca",
+      "headsign": "Cabecera",
+      "startsAtMinute": 1200,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "roca-1200-vuelta",
+      "lineId": "roca",
+      "routeName": "Roca",
+      "headsign": "Retiro",
+      "startsAtMinute": 1200,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "roca-1220-ida",
+      "lineId": "roca",
+      "routeName": "Roca",
+      "headsign": "Cabecera",
+      "startsAtMinute": 1220,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "roca-1220-vuelta",
+      "lineId": "roca",
+      "routeName": "Roca",
+      "headsign": "Retiro",
+      "startsAtMinute": 1220,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "roca-1240-ida",
+      "lineId": "roca",
+      "routeName": "Roca",
+      "headsign": "Cabecera",
+      "startsAtMinute": 1240,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "roca-1240-vuelta",
+      "lineId": "roca",
+      "routeName": "Roca",
+      "headsign": "Retiro",
+      "startsAtMinute": 1240,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "roca-1260-ida",
+      "lineId": "roca",
+      "routeName": "Roca",
+      "headsign": "Cabecera",
+      "startsAtMinute": 1260,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "roca-1260-vuelta",
+      "lineId": "roca",
+      "routeName": "Roca",
+      "headsign": "Retiro",
+      "startsAtMinute": 1260,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "roca-1280-ida",
+      "lineId": "roca",
+      "routeName": "Roca",
+      "headsign": "Cabecera",
+      "startsAtMinute": 1280,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "roca-1280-vuelta",
+      "lineId": "roca",
+      "routeName": "Roca",
+      "headsign": "Retiro",
+      "startsAtMinute": 1280,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "roca-1300-ida",
+      "lineId": "roca",
+      "routeName": "Roca",
+      "headsign": "Cabecera",
+      "startsAtMinute": 1300,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "roca-1300-vuelta",
+      "lineId": "roca",
+      "routeName": "Roca",
+      "headsign": "Retiro",
+      "startsAtMinute": 1300,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "roca-1320-ida",
+      "lineId": "roca",
+      "routeName": "Roca",
+      "headsign": "Cabecera",
+      "startsAtMinute": 1320,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "roca-1320-vuelta",
+      "lineId": "roca",
+      "routeName": "Roca",
+      "headsign": "Retiro",
+      "startsAtMinute": 1320,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "roca-1340-ida",
+      "lineId": "roca",
+      "routeName": "Roca",
+      "headsign": "Cabecera",
+      "startsAtMinute": 1340,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "roca-1340-vuelta",
+      "lineId": "roca",
+      "routeName": "Roca",
+      "headsign": "Retiro",
+      "startsAtMinute": 1340,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "roca-1360-ida",
+      "lineId": "roca",
+      "routeName": "Roca",
+      "headsign": "Cabecera",
+      "startsAtMinute": 1360,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "roca-1360-vuelta",
+      "lineId": "roca",
+      "routeName": "Roca",
+      "headsign": "Retiro",
+      "startsAtMinute": 1360,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "roca-1380-ida",
+      "lineId": "roca",
+      "routeName": "Roca",
+      "headsign": "Cabecera",
+      "startsAtMinute": 1380,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "roca-1380-vuelta",
+      "lineId": "roca",
+      "routeName": "Roca",
+      "headsign": "Retiro",
+      "startsAtMinute": 1380,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "roca-1400-ida",
+      "lineId": "roca",
+      "routeName": "Roca",
+      "headsign": "Cabecera",
+      "startsAtMinute": 1400,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "roca-1400-vuelta",
+      "lineId": "roca",
+      "routeName": "Roca",
+      "headsign": "Retiro",
+      "startsAtMinute": 1400,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "roca-1420-ida",
+      "lineId": "roca",
+      "routeName": "Roca",
+      "headsign": "Cabecera",
+      "startsAtMinute": 1420,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "roca-1420-vuelta",
+      "lineId": "roca",
+      "routeName": "Roca",
+      "headsign": "Retiro",
+      "startsAtMinute": 1420,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "san-martin-300-ida",
+      "lineId": "san-martin",
+      "routeName": "San Martín",
+      "headsign": "Cabecera",
+      "startsAtMinute": 300,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "san-martin-300-vuelta",
+      "lineId": "san-martin",
+      "routeName": "San Martín",
+      "headsign": "Retiro",
+      "startsAtMinute": 300,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "san-martin-320-ida",
+      "lineId": "san-martin",
+      "routeName": "San Martín",
+      "headsign": "Cabecera",
+      "startsAtMinute": 320,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "san-martin-320-vuelta",
+      "lineId": "san-martin",
+      "routeName": "San Martín",
+      "headsign": "Retiro",
+      "startsAtMinute": 320,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "san-martin-340-ida",
+      "lineId": "san-martin",
+      "routeName": "San Martín",
+      "headsign": "Cabecera",
+      "startsAtMinute": 340,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "san-martin-340-vuelta",
+      "lineId": "san-martin",
+      "routeName": "San Martín",
+      "headsign": "Retiro",
+      "startsAtMinute": 340,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "san-martin-360-ida",
+      "lineId": "san-martin",
+      "routeName": "San Martín",
+      "headsign": "Cabecera",
+      "startsAtMinute": 360,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "san-martin-360-vuelta",
+      "lineId": "san-martin",
+      "routeName": "San Martín",
+      "headsign": "Retiro",
+      "startsAtMinute": 360,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "san-martin-380-ida",
+      "lineId": "san-martin",
+      "routeName": "San Martín",
+      "headsign": "Cabecera",
+      "startsAtMinute": 380,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "san-martin-380-vuelta",
+      "lineId": "san-martin",
+      "routeName": "San Martín",
+      "headsign": "Retiro",
+      "startsAtMinute": 380,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "san-martin-400-ida",
+      "lineId": "san-martin",
+      "routeName": "San Martín",
+      "headsign": "Cabecera",
+      "startsAtMinute": 400,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "san-martin-400-vuelta",
+      "lineId": "san-martin",
+      "routeName": "San Martín",
+      "headsign": "Retiro",
+      "startsAtMinute": 400,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "san-martin-420-ida",
+      "lineId": "san-martin",
+      "routeName": "San Martín",
+      "headsign": "Cabecera",
+      "startsAtMinute": 420,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "san-martin-420-vuelta",
+      "lineId": "san-martin",
+      "routeName": "San Martín",
+      "headsign": "Retiro",
+      "startsAtMinute": 420,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "san-martin-440-ida",
+      "lineId": "san-martin",
+      "routeName": "San Martín",
+      "headsign": "Cabecera",
+      "startsAtMinute": 440,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "san-martin-440-vuelta",
+      "lineId": "san-martin",
+      "routeName": "San Martín",
+      "headsign": "Retiro",
+      "startsAtMinute": 440,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "san-martin-460-ida",
+      "lineId": "san-martin",
+      "routeName": "San Martín",
+      "headsign": "Cabecera",
+      "startsAtMinute": 460,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "san-martin-460-vuelta",
+      "lineId": "san-martin",
+      "routeName": "San Martín",
+      "headsign": "Retiro",
+      "startsAtMinute": 460,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "san-martin-480-ida",
+      "lineId": "san-martin",
+      "routeName": "San Martín",
+      "headsign": "Cabecera",
+      "startsAtMinute": 480,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "san-martin-480-vuelta",
+      "lineId": "san-martin",
+      "routeName": "San Martín",
+      "headsign": "Retiro",
+      "startsAtMinute": 480,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "san-martin-500-ida",
+      "lineId": "san-martin",
+      "routeName": "San Martín",
+      "headsign": "Cabecera",
+      "startsAtMinute": 500,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "san-martin-500-vuelta",
+      "lineId": "san-martin",
+      "routeName": "San Martín",
+      "headsign": "Retiro",
+      "startsAtMinute": 500,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "san-martin-520-ida",
+      "lineId": "san-martin",
+      "routeName": "San Martín",
+      "headsign": "Cabecera",
+      "startsAtMinute": 520,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "san-martin-520-vuelta",
+      "lineId": "san-martin",
+      "routeName": "San Martín",
+      "headsign": "Retiro",
+      "startsAtMinute": 520,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "san-martin-540-ida",
+      "lineId": "san-martin",
+      "routeName": "San Martín",
+      "headsign": "Cabecera",
+      "startsAtMinute": 540,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "san-martin-540-vuelta",
+      "lineId": "san-martin",
+      "routeName": "San Martín",
+      "headsign": "Retiro",
+      "startsAtMinute": 540,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "san-martin-560-ida",
+      "lineId": "san-martin",
+      "routeName": "San Martín",
+      "headsign": "Cabecera",
+      "startsAtMinute": 560,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "san-martin-560-vuelta",
+      "lineId": "san-martin",
+      "routeName": "San Martín",
+      "headsign": "Retiro",
+      "startsAtMinute": 560,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "san-martin-580-ida",
+      "lineId": "san-martin",
+      "routeName": "San Martín",
+      "headsign": "Cabecera",
+      "startsAtMinute": 580,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "san-martin-580-vuelta",
+      "lineId": "san-martin",
+      "routeName": "San Martín",
+      "headsign": "Retiro",
+      "startsAtMinute": 580,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "san-martin-600-ida",
+      "lineId": "san-martin",
+      "routeName": "San Martín",
+      "headsign": "Cabecera",
+      "startsAtMinute": 600,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "san-martin-600-vuelta",
+      "lineId": "san-martin",
+      "routeName": "San Martín",
+      "headsign": "Retiro",
+      "startsAtMinute": 600,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "san-martin-620-ida",
+      "lineId": "san-martin",
+      "routeName": "San Martín",
+      "headsign": "Cabecera",
+      "startsAtMinute": 620,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "san-martin-620-vuelta",
+      "lineId": "san-martin",
+      "routeName": "San Martín",
+      "headsign": "Retiro",
+      "startsAtMinute": 620,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "san-martin-640-ida",
+      "lineId": "san-martin",
+      "routeName": "San Martín",
+      "headsign": "Cabecera",
+      "startsAtMinute": 640,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "san-martin-640-vuelta",
+      "lineId": "san-martin",
+      "routeName": "San Martín",
+      "headsign": "Retiro",
+      "startsAtMinute": 640,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "san-martin-660-ida",
+      "lineId": "san-martin",
+      "routeName": "San Martín",
+      "headsign": "Cabecera",
+      "startsAtMinute": 660,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "san-martin-660-vuelta",
+      "lineId": "san-martin",
+      "routeName": "San Martín",
+      "headsign": "Retiro",
+      "startsAtMinute": 660,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "san-martin-680-ida",
+      "lineId": "san-martin",
+      "routeName": "San Martín",
+      "headsign": "Cabecera",
+      "startsAtMinute": 680,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "san-martin-680-vuelta",
+      "lineId": "san-martin",
+      "routeName": "San Martín",
+      "headsign": "Retiro",
+      "startsAtMinute": 680,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "san-martin-700-ida",
+      "lineId": "san-martin",
+      "routeName": "San Martín",
+      "headsign": "Cabecera",
+      "startsAtMinute": 700,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "san-martin-700-vuelta",
+      "lineId": "san-martin",
+      "routeName": "San Martín",
+      "headsign": "Retiro",
+      "startsAtMinute": 700,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "san-martin-720-ida",
+      "lineId": "san-martin",
+      "routeName": "San Martín",
+      "headsign": "Cabecera",
+      "startsAtMinute": 720,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "san-martin-720-vuelta",
+      "lineId": "san-martin",
+      "routeName": "San Martín",
+      "headsign": "Retiro",
+      "startsAtMinute": 720,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "san-martin-740-ida",
+      "lineId": "san-martin",
+      "routeName": "San Martín",
+      "headsign": "Cabecera",
+      "startsAtMinute": 740,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "san-martin-740-vuelta",
+      "lineId": "san-martin",
+      "routeName": "San Martín",
+      "headsign": "Retiro",
+      "startsAtMinute": 740,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "san-martin-760-ida",
+      "lineId": "san-martin",
+      "routeName": "San Martín",
+      "headsign": "Cabecera",
+      "startsAtMinute": 760,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "san-martin-760-vuelta",
+      "lineId": "san-martin",
+      "routeName": "San Martín",
+      "headsign": "Retiro",
+      "startsAtMinute": 760,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "san-martin-780-ida",
+      "lineId": "san-martin",
+      "routeName": "San Martín",
+      "headsign": "Cabecera",
+      "startsAtMinute": 780,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "san-martin-780-vuelta",
+      "lineId": "san-martin",
+      "routeName": "San Martín",
+      "headsign": "Retiro",
+      "startsAtMinute": 780,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "san-martin-800-ida",
+      "lineId": "san-martin",
+      "routeName": "San Martín",
+      "headsign": "Cabecera",
+      "startsAtMinute": 800,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "san-martin-800-vuelta",
+      "lineId": "san-martin",
+      "routeName": "San Martín",
+      "headsign": "Retiro",
+      "startsAtMinute": 800,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "san-martin-820-ida",
+      "lineId": "san-martin",
+      "routeName": "San Martín",
+      "headsign": "Cabecera",
+      "startsAtMinute": 820,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "san-martin-820-vuelta",
+      "lineId": "san-martin",
+      "routeName": "San Martín",
+      "headsign": "Retiro",
+      "startsAtMinute": 820,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "san-martin-840-ida",
+      "lineId": "san-martin",
+      "routeName": "San Martín",
+      "headsign": "Cabecera",
+      "startsAtMinute": 840,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "san-martin-840-vuelta",
+      "lineId": "san-martin",
+      "routeName": "San Martín",
+      "headsign": "Retiro",
+      "startsAtMinute": 840,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "san-martin-860-ida",
+      "lineId": "san-martin",
+      "routeName": "San Martín",
+      "headsign": "Cabecera",
+      "startsAtMinute": 860,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "san-martin-860-vuelta",
+      "lineId": "san-martin",
+      "routeName": "San Martín",
+      "headsign": "Retiro",
+      "startsAtMinute": 860,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "san-martin-880-ida",
+      "lineId": "san-martin",
+      "routeName": "San Martín",
+      "headsign": "Cabecera",
+      "startsAtMinute": 880,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "san-martin-880-vuelta",
+      "lineId": "san-martin",
+      "routeName": "San Martín",
+      "headsign": "Retiro",
+      "startsAtMinute": 880,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "san-martin-900-ida",
+      "lineId": "san-martin",
+      "routeName": "San Martín",
+      "headsign": "Cabecera",
+      "startsAtMinute": 900,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "san-martin-900-vuelta",
+      "lineId": "san-martin",
+      "routeName": "San Martín",
+      "headsign": "Retiro",
+      "startsAtMinute": 900,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "san-martin-920-ida",
+      "lineId": "san-martin",
+      "routeName": "San Martín",
+      "headsign": "Cabecera",
+      "startsAtMinute": 920,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "san-martin-920-vuelta",
+      "lineId": "san-martin",
+      "routeName": "San Martín",
+      "headsign": "Retiro",
+      "startsAtMinute": 920,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "san-martin-940-ida",
+      "lineId": "san-martin",
+      "routeName": "San Martín",
+      "headsign": "Cabecera",
+      "startsAtMinute": 940,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "san-martin-940-vuelta",
+      "lineId": "san-martin",
+      "routeName": "San Martín",
+      "headsign": "Retiro",
+      "startsAtMinute": 940,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "san-martin-960-ida",
+      "lineId": "san-martin",
+      "routeName": "San Martín",
+      "headsign": "Cabecera",
+      "startsAtMinute": 960,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "san-martin-960-vuelta",
+      "lineId": "san-martin",
+      "routeName": "San Martín",
+      "headsign": "Retiro",
+      "startsAtMinute": 960,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "san-martin-980-ida",
+      "lineId": "san-martin",
+      "routeName": "San Martín",
+      "headsign": "Cabecera",
+      "startsAtMinute": 980,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "san-martin-980-vuelta",
+      "lineId": "san-martin",
+      "routeName": "San Martín",
+      "headsign": "Retiro",
+      "startsAtMinute": 980,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "san-martin-1000-ida",
+      "lineId": "san-martin",
+      "routeName": "San Martín",
+      "headsign": "Cabecera",
+      "startsAtMinute": 1000,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "san-martin-1000-vuelta",
+      "lineId": "san-martin",
+      "routeName": "San Martín",
+      "headsign": "Retiro",
+      "startsAtMinute": 1000,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "san-martin-1020-ida",
+      "lineId": "san-martin",
+      "routeName": "San Martín",
+      "headsign": "Cabecera",
+      "startsAtMinute": 1020,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "san-martin-1020-vuelta",
+      "lineId": "san-martin",
+      "routeName": "San Martín",
+      "headsign": "Retiro",
+      "startsAtMinute": 1020,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "san-martin-1040-ida",
+      "lineId": "san-martin",
+      "routeName": "San Martín",
+      "headsign": "Cabecera",
+      "startsAtMinute": 1040,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "san-martin-1040-vuelta",
+      "lineId": "san-martin",
+      "routeName": "San Martín",
+      "headsign": "Retiro",
+      "startsAtMinute": 1040,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "san-martin-1060-ida",
+      "lineId": "san-martin",
+      "routeName": "San Martín",
+      "headsign": "Cabecera",
+      "startsAtMinute": 1060,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "san-martin-1060-vuelta",
+      "lineId": "san-martin",
+      "routeName": "San Martín",
+      "headsign": "Retiro",
+      "startsAtMinute": 1060,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "san-martin-1080-ida",
+      "lineId": "san-martin",
+      "routeName": "San Martín",
+      "headsign": "Cabecera",
+      "startsAtMinute": 1080,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "san-martin-1080-vuelta",
+      "lineId": "san-martin",
+      "routeName": "San Martín",
+      "headsign": "Retiro",
+      "startsAtMinute": 1080,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "san-martin-1100-ida",
+      "lineId": "san-martin",
+      "routeName": "San Martín",
+      "headsign": "Cabecera",
+      "startsAtMinute": 1100,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "san-martin-1100-vuelta",
+      "lineId": "san-martin",
+      "routeName": "San Martín",
+      "headsign": "Retiro",
+      "startsAtMinute": 1100,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "san-martin-1120-ida",
+      "lineId": "san-martin",
+      "routeName": "San Martín",
+      "headsign": "Cabecera",
+      "startsAtMinute": 1120,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "san-martin-1120-vuelta",
+      "lineId": "san-martin",
+      "routeName": "San Martín",
+      "headsign": "Retiro",
+      "startsAtMinute": 1120,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "san-martin-1140-ida",
+      "lineId": "san-martin",
+      "routeName": "San Martín",
+      "headsign": "Cabecera",
+      "startsAtMinute": 1140,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "san-martin-1140-vuelta",
+      "lineId": "san-martin",
+      "routeName": "San Martín",
+      "headsign": "Retiro",
+      "startsAtMinute": 1140,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "san-martin-1160-ida",
+      "lineId": "san-martin",
+      "routeName": "San Martín",
+      "headsign": "Cabecera",
+      "startsAtMinute": 1160,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "san-martin-1160-vuelta",
+      "lineId": "san-martin",
+      "routeName": "San Martín",
+      "headsign": "Retiro",
+      "startsAtMinute": 1160,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "san-martin-1180-ida",
+      "lineId": "san-martin",
+      "routeName": "San Martín",
+      "headsign": "Cabecera",
+      "startsAtMinute": 1180,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "san-martin-1180-vuelta",
+      "lineId": "san-martin",
+      "routeName": "San Martín",
+      "headsign": "Retiro",
+      "startsAtMinute": 1180,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "san-martin-1200-ida",
+      "lineId": "san-martin",
+      "routeName": "San Martín",
+      "headsign": "Cabecera",
+      "startsAtMinute": 1200,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "san-martin-1200-vuelta",
+      "lineId": "san-martin",
+      "routeName": "San Martín",
+      "headsign": "Retiro",
+      "startsAtMinute": 1200,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "san-martin-1220-ida",
+      "lineId": "san-martin",
+      "routeName": "San Martín",
+      "headsign": "Cabecera",
+      "startsAtMinute": 1220,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "san-martin-1220-vuelta",
+      "lineId": "san-martin",
+      "routeName": "San Martín",
+      "headsign": "Retiro",
+      "startsAtMinute": 1220,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "san-martin-1240-ida",
+      "lineId": "san-martin",
+      "routeName": "San Martín",
+      "headsign": "Cabecera",
+      "startsAtMinute": 1240,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "san-martin-1240-vuelta",
+      "lineId": "san-martin",
+      "routeName": "San Martín",
+      "headsign": "Retiro",
+      "startsAtMinute": 1240,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "san-martin-1260-ida",
+      "lineId": "san-martin",
+      "routeName": "San Martín",
+      "headsign": "Cabecera",
+      "startsAtMinute": 1260,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "san-martin-1260-vuelta",
+      "lineId": "san-martin",
+      "routeName": "San Martín",
+      "headsign": "Retiro",
+      "startsAtMinute": 1260,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "san-martin-1280-ida",
+      "lineId": "san-martin",
+      "routeName": "San Martín",
+      "headsign": "Cabecera",
+      "startsAtMinute": 1280,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "san-martin-1280-vuelta",
+      "lineId": "san-martin",
+      "routeName": "San Martín",
+      "headsign": "Retiro",
+      "startsAtMinute": 1280,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "san-martin-1300-ida",
+      "lineId": "san-martin",
+      "routeName": "San Martín",
+      "headsign": "Cabecera",
+      "startsAtMinute": 1300,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "san-martin-1300-vuelta",
+      "lineId": "san-martin",
+      "routeName": "San Martín",
+      "headsign": "Retiro",
+      "startsAtMinute": 1300,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "san-martin-1320-ida",
+      "lineId": "san-martin",
+      "routeName": "San Martín",
+      "headsign": "Cabecera",
+      "startsAtMinute": 1320,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "san-martin-1320-vuelta",
+      "lineId": "san-martin",
+      "routeName": "San Martín",
+      "headsign": "Retiro",
+      "startsAtMinute": 1320,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "san-martin-1340-ida",
+      "lineId": "san-martin",
+      "routeName": "San Martín",
+      "headsign": "Cabecera",
+      "startsAtMinute": 1340,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "san-martin-1340-vuelta",
+      "lineId": "san-martin",
+      "routeName": "San Martín",
+      "headsign": "Retiro",
+      "startsAtMinute": 1340,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "san-martin-1360-ida",
+      "lineId": "san-martin",
+      "routeName": "San Martín",
+      "headsign": "Cabecera",
+      "startsAtMinute": 1360,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "san-martin-1360-vuelta",
+      "lineId": "san-martin",
+      "routeName": "San Martín",
+      "headsign": "Retiro",
+      "startsAtMinute": 1360,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "san-martin-1380-ida",
+      "lineId": "san-martin",
+      "routeName": "San Martín",
+      "headsign": "Cabecera",
+      "startsAtMinute": 1380,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "san-martin-1380-vuelta",
+      "lineId": "san-martin",
+      "routeName": "San Martín",
+      "headsign": "Retiro",
+      "startsAtMinute": 1380,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "san-martin-1400-ida",
+      "lineId": "san-martin",
+      "routeName": "San Martín",
+      "headsign": "Cabecera",
+      "startsAtMinute": 1400,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "san-martin-1400-vuelta",
+      "lineId": "san-martin",
+      "routeName": "San Martín",
+      "headsign": "Retiro",
+      "startsAtMinute": 1400,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "san-martin-1420-ida",
+      "lineId": "san-martin",
+      "routeName": "San Martín",
+      "headsign": "Cabecera",
+      "startsAtMinute": 1420,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "san-martin-1420-vuelta",
+      "lineId": "san-martin",
+      "routeName": "San Martín",
+      "headsign": "Retiro",
+      "startsAtMinute": 1420,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "belgrano-norte-300-ida",
+      "lineId": "belgrano-norte",
+      "routeName": "Belgrano Norte",
+      "headsign": "Cabecera",
+      "startsAtMinute": 300,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "belgrano-norte-300-vuelta",
+      "lineId": "belgrano-norte",
+      "routeName": "Belgrano Norte",
+      "headsign": "Retiro",
+      "startsAtMinute": 300,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "belgrano-norte-320-ida",
+      "lineId": "belgrano-norte",
+      "routeName": "Belgrano Norte",
+      "headsign": "Cabecera",
+      "startsAtMinute": 320,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "belgrano-norte-320-vuelta",
+      "lineId": "belgrano-norte",
+      "routeName": "Belgrano Norte",
+      "headsign": "Retiro",
+      "startsAtMinute": 320,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "belgrano-norte-340-ida",
+      "lineId": "belgrano-norte",
+      "routeName": "Belgrano Norte",
+      "headsign": "Cabecera",
+      "startsAtMinute": 340,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "belgrano-norte-340-vuelta",
+      "lineId": "belgrano-norte",
+      "routeName": "Belgrano Norte",
+      "headsign": "Retiro",
+      "startsAtMinute": 340,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "belgrano-norte-360-ida",
+      "lineId": "belgrano-norte",
+      "routeName": "Belgrano Norte",
+      "headsign": "Cabecera",
+      "startsAtMinute": 360,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "belgrano-norte-360-vuelta",
+      "lineId": "belgrano-norte",
+      "routeName": "Belgrano Norte",
+      "headsign": "Retiro",
+      "startsAtMinute": 360,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "belgrano-norte-380-ida",
+      "lineId": "belgrano-norte",
+      "routeName": "Belgrano Norte",
+      "headsign": "Cabecera",
+      "startsAtMinute": 380,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "belgrano-norte-380-vuelta",
+      "lineId": "belgrano-norte",
+      "routeName": "Belgrano Norte",
+      "headsign": "Retiro",
+      "startsAtMinute": 380,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "belgrano-norte-400-ida",
+      "lineId": "belgrano-norte",
+      "routeName": "Belgrano Norte",
+      "headsign": "Cabecera",
+      "startsAtMinute": 400,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "belgrano-norte-400-vuelta",
+      "lineId": "belgrano-norte",
+      "routeName": "Belgrano Norte",
+      "headsign": "Retiro",
+      "startsAtMinute": 400,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "belgrano-norte-420-ida",
+      "lineId": "belgrano-norte",
+      "routeName": "Belgrano Norte",
+      "headsign": "Cabecera",
+      "startsAtMinute": 420,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "belgrano-norte-420-vuelta",
+      "lineId": "belgrano-norte",
+      "routeName": "Belgrano Norte",
+      "headsign": "Retiro",
+      "startsAtMinute": 420,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "belgrano-norte-440-ida",
+      "lineId": "belgrano-norte",
+      "routeName": "Belgrano Norte",
+      "headsign": "Cabecera",
+      "startsAtMinute": 440,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "belgrano-norte-440-vuelta",
+      "lineId": "belgrano-norte",
+      "routeName": "Belgrano Norte",
+      "headsign": "Retiro",
+      "startsAtMinute": 440,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "belgrano-norte-460-ida",
+      "lineId": "belgrano-norte",
+      "routeName": "Belgrano Norte",
+      "headsign": "Cabecera",
+      "startsAtMinute": 460,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "belgrano-norte-460-vuelta",
+      "lineId": "belgrano-norte",
+      "routeName": "Belgrano Norte",
+      "headsign": "Retiro",
+      "startsAtMinute": 460,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "belgrano-norte-480-ida",
+      "lineId": "belgrano-norte",
+      "routeName": "Belgrano Norte",
+      "headsign": "Cabecera",
+      "startsAtMinute": 480,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "belgrano-norte-480-vuelta",
+      "lineId": "belgrano-norte",
+      "routeName": "Belgrano Norte",
+      "headsign": "Retiro",
+      "startsAtMinute": 480,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "belgrano-norte-500-ida",
+      "lineId": "belgrano-norte",
+      "routeName": "Belgrano Norte",
+      "headsign": "Cabecera",
+      "startsAtMinute": 500,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "belgrano-norte-500-vuelta",
+      "lineId": "belgrano-norte",
+      "routeName": "Belgrano Norte",
+      "headsign": "Retiro",
+      "startsAtMinute": 500,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "belgrano-norte-520-ida",
+      "lineId": "belgrano-norte",
+      "routeName": "Belgrano Norte",
+      "headsign": "Cabecera",
+      "startsAtMinute": 520,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "belgrano-norte-520-vuelta",
+      "lineId": "belgrano-norte",
+      "routeName": "Belgrano Norte",
+      "headsign": "Retiro",
+      "startsAtMinute": 520,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "belgrano-norte-540-ida",
+      "lineId": "belgrano-norte",
+      "routeName": "Belgrano Norte",
+      "headsign": "Cabecera",
+      "startsAtMinute": 540,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "belgrano-norte-540-vuelta",
+      "lineId": "belgrano-norte",
+      "routeName": "Belgrano Norte",
+      "headsign": "Retiro",
+      "startsAtMinute": 540,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "belgrano-norte-560-ida",
+      "lineId": "belgrano-norte",
+      "routeName": "Belgrano Norte",
+      "headsign": "Cabecera",
+      "startsAtMinute": 560,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "belgrano-norte-560-vuelta",
+      "lineId": "belgrano-norte",
+      "routeName": "Belgrano Norte",
+      "headsign": "Retiro",
+      "startsAtMinute": 560,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "belgrano-norte-580-ida",
+      "lineId": "belgrano-norte",
+      "routeName": "Belgrano Norte",
+      "headsign": "Cabecera",
+      "startsAtMinute": 580,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "belgrano-norte-580-vuelta",
+      "lineId": "belgrano-norte",
+      "routeName": "Belgrano Norte",
+      "headsign": "Retiro",
+      "startsAtMinute": 580,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "belgrano-norte-600-ida",
+      "lineId": "belgrano-norte",
+      "routeName": "Belgrano Norte",
+      "headsign": "Cabecera",
+      "startsAtMinute": 600,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "belgrano-norte-600-vuelta",
+      "lineId": "belgrano-norte",
+      "routeName": "Belgrano Norte",
+      "headsign": "Retiro",
+      "startsAtMinute": 600,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "belgrano-norte-620-ida",
+      "lineId": "belgrano-norte",
+      "routeName": "Belgrano Norte",
+      "headsign": "Cabecera",
+      "startsAtMinute": 620,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "belgrano-norte-620-vuelta",
+      "lineId": "belgrano-norte",
+      "routeName": "Belgrano Norte",
+      "headsign": "Retiro",
+      "startsAtMinute": 620,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "belgrano-norte-640-ida",
+      "lineId": "belgrano-norte",
+      "routeName": "Belgrano Norte",
+      "headsign": "Cabecera",
+      "startsAtMinute": 640,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "belgrano-norte-640-vuelta",
+      "lineId": "belgrano-norte",
+      "routeName": "Belgrano Norte",
+      "headsign": "Retiro",
+      "startsAtMinute": 640,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "belgrano-norte-660-ida",
+      "lineId": "belgrano-norte",
+      "routeName": "Belgrano Norte",
+      "headsign": "Cabecera",
+      "startsAtMinute": 660,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "belgrano-norte-660-vuelta",
+      "lineId": "belgrano-norte",
+      "routeName": "Belgrano Norte",
+      "headsign": "Retiro",
+      "startsAtMinute": 660,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "belgrano-norte-680-ida",
+      "lineId": "belgrano-norte",
+      "routeName": "Belgrano Norte",
+      "headsign": "Cabecera",
+      "startsAtMinute": 680,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "belgrano-norte-680-vuelta",
+      "lineId": "belgrano-norte",
+      "routeName": "Belgrano Norte",
+      "headsign": "Retiro",
+      "startsAtMinute": 680,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "belgrano-norte-700-ida",
+      "lineId": "belgrano-norte",
+      "routeName": "Belgrano Norte",
+      "headsign": "Cabecera",
+      "startsAtMinute": 700,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "belgrano-norte-700-vuelta",
+      "lineId": "belgrano-norte",
+      "routeName": "Belgrano Norte",
+      "headsign": "Retiro",
+      "startsAtMinute": 700,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "belgrano-norte-720-ida",
+      "lineId": "belgrano-norte",
+      "routeName": "Belgrano Norte",
+      "headsign": "Cabecera",
+      "startsAtMinute": 720,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "belgrano-norte-720-vuelta",
+      "lineId": "belgrano-norte",
+      "routeName": "Belgrano Norte",
+      "headsign": "Retiro",
+      "startsAtMinute": 720,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "belgrano-norte-740-ida",
+      "lineId": "belgrano-norte",
+      "routeName": "Belgrano Norte",
+      "headsign": "Cabecera",
+      "startsAtMinute": 740,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "belgrano-norte-740-vuelta",
+      "lineId": "belgrano-norte",
+      "routeName": "Belgrano Norte",
+      "headsign": "Retiro",
+      "startsAtMinute": 740,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "belgrano-norte-760-ida",
+      "lineId": "belgrano-norte",
+      "routeName": "Belgrano Norte",
+      "headsign": "Cabecera",
+      "startsAtMinute": 760,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "belgrano-norte-760-vuelta",
+      "lineId": "belgrano-norte",
+      "routeName": "Belgrano Norte",
+      "headsign": "Retiro",
+      "startsAtMinute": 760,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "belgrano-norte-780-ida",
+      "lineId": "belgrano-norte",
+      "routeName": "Belgrano Norte",
+      "headsign": "Cabecera",
+      "startsAtMinute": 780,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "belgrano-norte-780-vuelta",
+      "lineId": "belgrano-norte",
+      "routeName": "Belgrano Norte",
+      "headsign": "Retiro",
+      "startsAtMinute": 780,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "belgrano-norte-800-ida",
+      "lineId": "belgrano-norte",
+      "routeName": "Belgrano Norte",
+      "headsign": "Cabecera",
+      "startsAtMinute": 800,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "belgrano-norte-800-vuelta",
+      "lineId": "belgrano-norte",
+      "routeName": "Belgrano Norte",
+      "headsign": "Retiro",
+      "startsAtMinute": 800,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "belgrano-norte-820-ida",
+      "lineId": "belgrano-norte",
+      "routeName": "Belgrano Norte",
+      "headsign": "Cabecera",
+      "startsAtMinute": 820,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "belgrano-norte-820-vuelta",
+      "lineId": "belgrano-norte",
+      "routeName": "Belgrano Norte",
+      "headsign": "Retiro",
+      "startsAtMinute": 820,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "belgrano-norte-840-ida",
+      "lineId": "belgrano-norte",
+      "routeName": "Belgrano Norte",
+      "headsign": "Cabecera",
+      "startsAtMinute": 840,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "belgrano-norte-840-vuelta",
+      "lineId": "belgrano-norte",
+      "routeName": "Belgrano Norte",
+      "headsign": "Retiro",
+      "startsAtMinute": 840,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "belgrano-norte-860-ida",
+      "lineId": "belgrano-norte",
+      "routeName": "Belgrano Norte",
+      "headsign": "Cabecera",
+      "startsAtMinute": 860,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "belgrano-norte-860-vuelta",
+      "lineId": "belgrano-norte",
+      "routeName": "Belgrano Norte",
+      "headsign": "Retiro",
+      "startsAtMinute": 860,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "belgrano-norte-880-ida",
+      "lineId": "belgrano-norte",
+      "routeName": "Belgrano Norte",
+      "headsign": "Cabecera",
+      "startsAtMinute": 880,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "belgrano-norte-880-vuelta",
+      "lineId": "belgrano-norte",
+      "routeName": "Belgrano Norte",
+      "headsign": "Retiro",
+      "startsAtMinute": 880,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "belgrano-norte-900-ida",
+      "lineId": "belgrano-norte",
+      "routeName": "Belgrano Norte",
+      "headsign": "Cabecera",
+      "startsAtMinute": 900,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "belgrano-norte-900-vuelta",
+      "lineId": "belgrano-norte",
+      "routeName": "Belgrano Norte",
+      "headsign": "Retiro",
+      "startsAtMinute": 900,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "belgrano-norte-920-ida",
+      "lineId": "belgrano-norte",
+      "routeName": "Belgrano Norte",
+      "headsign": "Cabecera",
+      "startsAtMinute": 920,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "belgrano-norte-920-vuelta",
+      "lineId": "belgrano-norte",
+      "routeName": "Belgrano Norte",
+      "headsign": "Retiro",
+      "startsAtMinute": 920,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "belgrano-norte-940-ida",
+      "lineId": "belgrano-norte",
+      "routeName": "Belgrano Norte",
+      "headsign": "Cabecera",
+      "startsAtMinute": 940,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "belgrano-norte-940-vuelta",
+      "lineId": "belgrano-norte",
+      "routeName": "Belgrano Norte",
+      "headsign": "Retiro",
+      "startsAtMinute": 940,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "belgrano-norte-960-ida",
+      "lineId": "belgrano-norte",
+      "routeName": "Belgrano Norte",
+      "headsign": "Cabecera",
+      "startsAtMinute": 960,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "belgrano-norte-960-vuelta",
+      "lineId": "belgrano-norte",
+      "routeName": "Belgrano Norte",
+      "headsign": "Retiro",
+      "startsAtMinute": 960,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "belgrano-norte-980-ida",
+      "lineId": "belgrano-norte",
+      "routeName": "Belgrano Norte",
+      "headsign": "Cabecera",
+      "startsAtMinute": 980,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "belgrano-norte-980-vuelta",
+      "lineId": "belgrano-norte",
+      "routeName": "Belgrano Norte",
+      "headsign": "Retiro",
+      "startsAtMinute": 980,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "belgrano-norte-1000-ida",
+      "lineId": "belgrano-norte",
+      "routeName": "Belgrano Norte",
+      "headsign": "Cabecera",
+      "startsAtMinute": 1000,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "belgrano-norte-1000-vuelta",
+      "lineId": "belgrano-norte",
+      "routeName": "Belgrano Norte",
+      "headsign": "Retiro",
+      "startsAtMinute": 1000,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "belgrano-norte-1020-ida",
+      "lineId": "belgrano-norte",
+      "routeName": "Belgrano Norte",
+      "headsign": "Cabecera",
+      "startsAtMinute": 1020,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "belgrano-norte-1020-vuelta",
+      "lineId": "belgrano-norte",
+      "routeName": "Belgrano Norte",
+      "headsign": "Retiro",
+      "startsAtMinute": 1020,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "belgrano-norte-1040-ida",
+      "lineId": "belgrano-norte",
+      "routeName": "Belgrano Norte",
+      "headsign": "Cabecera",
+      "startsAtMinute": 1040,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "belgrano-norte-1040-vuelta",
+      "lineId": "belgrano-norte",
+      "routeName": "Belgrano Norte",
+      "headsign": "Retiro",
+      "startsAtMinute": 1040,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "belgrano-norte-1060-ida",
+      "lineId": "belgrano-norte",
+      "routeName": "Belgrano Norte",
+      "headsign": "Cabecera",
+      "startsAtMinute": 1060,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "belgrano-norte-1060-vuelta",
+      "lineId": "belgrano-norte",
+      "routeName": "Belgrano Norte",
+      "headsign": "Retiro",
+      "startsAtMinute": 1060,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "belgrano-norte-1080-ida",
+      "lineId": "belgrano-norte",
+      "routeName": "Belgrano Norte",
+      "headsign": "Cabecera",
+      "startsAtMinute": 1080,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "belgrano-norte-1080-vuelta",
+      "lineId": "belgrano-norte",
+      "routeName": "Belgrano Norte",
+      "headsign": "Retiro",
+      "startsAtMinute": 1080,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "belgrano-norte-1100-ida",
+      "lineId": "belgrano-norte",
+      "routeName": "Belgrano Norte",
+      "headsign": "Cabecera",
+      "startsAtMinute": 1100,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "belgrano-norte-1100-vuelta",
+      "lineId": "belgrano-norte",
+      "routeName": "Belgrano Norte",
+      "headsign": "Retiro",
+      "startsAtMinute": 1100,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "belgrano-norte-1120-ida",
+      "lineId": "belgrano-norte",
+      "routeName": "Belgrano Norte",
+      "headsign": "Cabecera",
+      "startsAtMinute": 1120,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "belgrano-norte-1120-vuelta",
+      "lineId": "belgrano-norte",
+      "routeName": "Belgrano Norte",
+      "headsign": "Retiro",
+      "startsAtMinute": 1120,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "belgrano-norte-1140-ida",
+      "lineId": "belgrano-norte",
+      "routeName": "Belgrano Norte",
+      "headsign": "Cabecera",
+      "startsAtMinute": 1140,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "belgrano-norte-1140-vuelta",
+      "lineId": "belgrano-norte",
+      "routeName": "Belgrano Norte",
+      "headsign": "Retiro",
+      "startsAtMinute": 1140,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "belgrano-norte-1160-ida",
+      "lineId": "belgrano-norte",
+      "routeName": "Belgrano Norte",
+      "headsign": "Cabecera",
+      "startsAtMinute": 1160,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "belgrano-norte-1160-vuelta",
+      "lineId": "belgrano-norte",
+      "routeName": "Belgrano Norte",
+      "headsign": "Retiro",
+      "startsAtMinute": 1160,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "belgrano-norte-1180-ida",
+      "lineId": "belgrano-norte",
+      "routeName": "Belgrano Norte",
+      "headsign": "Cabecera",
+      "startsAtMinute": 1180,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "belgrano-norte-1180-vuelta",
+      "lineId": "belgrano-norte",
+      "routeName": "Belgrano Norte",
+      "headsign": "Retiro",
+      "startsAtMinute": 1180,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "belgrano-norte-1200-ida",
+      "lineId": "belgrano-norte",
+      "routeName": "Belgrano Norte",
+      "headsign": "Cabecera",
+      "startsAtMinute": 1200,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "belgrano-norte-1200-vuelta",
+      "lineId": "belgrano-norte",
+      "routeName": "Belgrano Norte",
+      "headsign": "Retiro",
+      "startsAtMinute": 1200,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "belgrano-norte-1220-ida",
+      "lineId": "belgrano-norte",
+      "routeName": "Belgrano Norte",
+      "headsign": "Cabecera",
+      "startsAtMinute": 1220,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "belgrano-norte-1220-vuelta",
+      "lineId": "belgrano-norte",
+      "routeName": "Belgrano Norte",
+      "headsign": "Retiro",
+      "startsAtMinute": 1220,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "belgrano-norte-1240-ida",
+      "lineId": "belgrano-norte",
+      "routeName": "Belgrano Norte",
+      "headsign": "Cabecera",
+      "startsAtMinute": 1240,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "belgrano-norte-1240-vuelta",
+      "lineId": "belgrano-norte",
+      "routeName": "Belgrano Norte",
+      "headsign": "Retiro",
+      "startsAtMinute": 1240,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "belgrano-norte-1260-ida",
+      "lineId": "belgrano-norte",
+      "routeName": "Belgrano Norte",
+      "headsign": "Cabecera",
+      "startsAtMinute": 1260,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "belgrano-norte-1260-vuelta",
+      "lineId": "belgrano-norte",
+      "routeName": "Belgrano Norte",
+      "headsign": "Retiro",
+      "startsAtMinute": 1260,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "belgrano-norte-1280-ida",
+      "lineId": "belgrano-norte",
+      "routeName": "Belgrano Norte",
+      "headsign": "Cabecera",
+      "startsAtMinute": 1280,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "belgrano-norte-1280-vuelta",
+      "lineId": "belgrano-norte",
+      "routeName": "Belgrano Norte",
+      "headsign": "Retiro",
+      "startsAtMinute": 1280,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "belgrano-norte-1300-ida",
+      "lineId": "belgrano-norte",
+      "routeName": "Belgrano Norte",
+      "headsign": "Cabecera",
+      "startsAtMinute": 1300,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "belgrano-norte-1300-vuelta",
+      "lineId": "belgrano-norte",
+      "routeName": "Belgrano Norte",
+      "headsign": "Retiro",
+      "startsAtMinute": 1300,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "belgrano-norte-1320-ida",
+      "lineId": "belgrano-norte",
+      "routeName": "Belgrano Norte",
+      "headsign": "Cabecera",
+      "startsAtMinute": 1320,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "belgrano-norte-1320-vuelta",
+      "lineId": "belgrano-norte",
+      "routeName": "Belgrano Norte",
+      "headsign": "Retiro",
+      "startsAtMinute": 1320,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "belgrano-norte-1340-ida",
+      "lineId": "belgrano-norte",
+      "routeName": "Belgrano Norte",
+      "headsign": "Cabecera",
+      "startsAtMinute": 1340,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "belgrano-norte-1340-vuelta",
+      "lineId": "belgrano-norte",
+      "routeName": "Belgrano Norte",
+      "headsign": "Retiro",
+      "startsAtMinute": 1340,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "belgrano-norte-1360-ida",
+      "lineId": "belgrano-norte",
+      "routeName": "Belgrano Norte",
+      "headsign": "Cabecera",
+      "startsAtMinute": 1360,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "belgrano-norte-1360-vuelta",
+      "lineId": "belgrano-norte",
+      "routeName": "Belgrano Norte",
+      "headsign": "Retiro",
+      "startsAtMinute": 1360,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "belgrano-norte-1380-ida",
+      "lineId": "belgrano-norte",
+      "routeName": "Belgrano Norte",
+      "headsign": "Cabecera",
+      "startsAtMinute": 1380,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "belgrano-norte-1380-vuelta",
+      "lineId": "belgrano-norte",
+      "routeName": "Belgrano Norte",
+      "headsign": "Retiro",
+      "startsAtMinute": 1380,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "belgrano-norte-1400-ida",
+      "lineId": "belgrano-norte",
+      "routeName": "Belgrano Norte",
+      "headsign": "Cabecera",
+      "startsAtMinute": 1400,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "belgrano-norte-1400-vuelta",
+      "lineId": "belgrano-norte",
+      "routeName": "Belgrano Norte",
+      "headsign": "Retiro",
+      "startsAtMinute": 1400,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "belgrano-norte-1420-ida",
+      "lineId": "belgrano-norte",
+      "routeName": "Belgrano Norte",
+      "headsign": "Cabecera",
+      "startsAtMinute": 1420,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "belgrano-norte-1420-vuelta",
+      "lineId": "belgrano-norte",
+      "routeName": "Belgrano Norte",
+      "headsign": "Retiro",
+      "startsAtMinute": 1420,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "belgrano-sur-300-ida",
+      "lineId": "belgrano-sur",
+      "routeName": "Belgrano Sur",
+      "headsign": "Cabecera",
+      "startsAtMinute": 300,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "belgrano-sur-300-vuelta",
+      "lineId": "belgrano-sur",
+      "routeName": "Belgrano Sur",
+      "headsign": "Retiro",
+      "startsAtMinute": 300,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "belgrano-sur-320-ida",
+      "lineId": "belgrano-sur",
+      "routeName": "Belgrano Sur",
+      "headsign": "Cabecera",
+      "startsAtMinute": 320,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "belgrano-sur-320-vuelta",
+      "lineId": "belgrano-sur",
+      "routeName": "Belgrano Sur",
+      "headsign": "Retiro",
+      "startsAtMinute": 320,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "belgrano-sur-340-ida",
+      "lineId": "belgrano-sur",
+      "routeName": "Belgrano Sur",
+      "headsign": "Cabecera",
+      "startsAtMinute": 340,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "belgrano-sur-340-vuelta",
+      "lineId": "belgrano-sur",
+      "routeName": "Belgrano Sur",
+      "headsign": "Retiro",
+      "startsAtMinute": 340,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "belgrano-sur-360-ida",
+      "lineId": "belgrano-sur",
+      "routeName": "Belgrano Sur",
+      "headsign": "Cabecera",
+      "startsAtMinute": 360,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "belgrano-sur-360-vuelta",
+      "lineId": "belgrano-sur",
+      "routeName": "Belgrano Sur",
+      "headsign": "Retiro",
+      "startsAtMinute": 360,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "belgrano-sur-380-ida",
+      "lineId": "belgrano-sur",
+      "routeName": "Belgrano Sur",
+      "headsign": "Cabecera",
+      "startsAtMinute": 380,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "belgrano-sur-380-vuelta",
+      "lineId": "belgrano-sur",
+      "routeName": "Belgrano Sur",
+      "headsign": "Retiro",
+      "startsAtMinute": 380,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "belgrano-sur-400-ida",
+      "lineId": "belgrano-sur",
+      "routeName": "Belgrano Sur",
+      "headsign": "Cabecera",
+      "startsAtMinute": 400,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "belgrano-sur-400-vuelta",
+      "lineId": "belgrano-sur",
+      "routeName": "Belgrano Sur",
+      "headsign": "Retiro",
+      "startsAtMinute": 400,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "belgrano-sur-420-ida",
+      "lineId": "belgrano-sur",
+      "routeName": "Belgrano Sur",
+      "headsign": "Cabecera",
+      "startsAtMinute": 420,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "belgrano-sur-420-vuelta",
+      "lineId": "belgrano-sur",
+      "routeName": "Belgrano Sur",
+      "headsign": "Retiro",
+      "startsAtMinute": 420,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "belgrano-sur-440-ida",
+      "lineId": "belgrano-sur",
+      "routeName": "Belgrano Sur",
+      "headsign": "Cabecera",
+      "startsAtMinute": 440,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "belgrano-sur-440-vuelta",
+      "lineId": "belgrano-sur",
+      "routeName": "Belgrano Sur",
+      "headsign": "Retiro",
+      "startsAtMinute": 440,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "belgrano-sur-460-ida",
+      "lineId": "belgrano-sur",
+      "routeName": "Belgrano Sur",
+      "headsign": "Cabecera",
+      "startsAtMinute": 460,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "belgrano-sur-460-vuelta",
+      "lineId": "belgrano-sur",
+      "routeName": "Belgrano Sur",
+      "headsign": "Retiro",
+      "startsAtMinute": 460,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "belgrano-sur-480-ida",
+      "lineId": "belgrano-sur",
+      "routeName": "Belgrano Sur",
+      "headsign": "Cabecera",
+      "startsAtMinute": 480,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "belgrano-sur-480-vuelta",
+      "lineId": "belgrano-sur",
+      "routeName": "Belgrano Sur",
+      "headsign": "Retiro",
+      "startsAtMinute": 480,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "belgrano-sur-500-ida",
+      "lineId": "belgrano-sur",
+      "routeName": "Belgrano Sur",
+      "headsign": "Cabecera",
+      "startsAtMinute": 500,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "belgrano-sur-500-vuelta",
+      "lineId": "belgrano-sur",
+      "routeName": "Belgrano Sur",
+      "headsign": "Retiro",
+      "startsAtMinute": 500,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "belgrano-sur-520-ida",
+      "lineId": "belgrano-sur",
+      "routeName": "Belgrano Sur",
+      "headsign": "Cabecera",
+      "startsAtMinute": 520,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "belgrano-sur-520-vuelta",
+      "lineId": "belgrano-sur",
+      "routeName": "Belgrano Sur",
+      "headsign": "Retiro",
+      "startsAtMinute": 520,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "belgrano-sur-540-ida",
+      "lineId": "belgrano-sur",
+      "routeName": "Belgrano Sur",
+      "headsign": "Cabecera",
+      "startsAtMinute": 540,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "belgrano-sur-540-vuelta",
+      "lineId": "belgrano-sur",
+      "routeName": "Belgrano Sur",
+      "headsign": "Retiro",
+      "startsAtMinute": 540,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "belgrano-sur-560-ida",
+      "lineId": "belgrano-sur",
+      "routeName": "Belgrano Sur",
+      "headsign": "Cabecera",
+      "startsAtMinute": 560,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "belgrano-sur-560-vuelta",
+      "lineId": "belgrano-sur",
+      "routeName": "Belgrano Sur",
+      "headsign": "Retiro",
+      "startsAtMinute": 560,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "belgrano-sur-580-ida",
+      "lineId": "belgrano-sur",
+      "routeName": "Belgrano Sur",
+      "headsign": "Cabecera",
+      "startsAtMinute": 580,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "belgrano-sur-580-vuelta",
+      "lineId": "belgrano-sur",
+      "routeName": "Belgrano Sur",
+      "headsign": "Retiro",
+      "startsAtMinute": 580,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "belgrano-sur-600-ida",
+      "lineId": "belgrano-sur",
+      "routeName": "Belgrano Sur",
+      "headsign": "Cabecera",
+      "startsAtMinute": 600,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "belgrano-sur-600-vuelta",
+      "lineId": "belgrano-sur",
+      "routeName": "Belgrano Sur",
+      "headsign": "Retiro",
+      "startsAtMinute": 600,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "belgrano-sur-620-ida",
+      "lineId": "belgrano-sur",
+      "routeName": "Belgrano Sur",
+      "headsign": "Cabecera",
+      "startsAtMinute": 620,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "belgrano-sur-620-vuelta",
+      "lineId": "belgrano-sur",
+      "routeName": "Belgrano Sur",
+      "headsign": "Retiro",
+      "startsAtMinute": 620,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "belgrano-sur-640-ida",
+      "lineId": "belgrano-sur",
+      "routeName": "Belgrano Sur",
+      "headsign": "Cabecera",
+      "startsAtMinute": 640,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "belgrano-sur-640-vuelta",
+      "lineId": "belgrano-sur",
+      "routeName": "Belgrano Sur",
+      "headsign": "Retiro",
+      "startsAtMinute": 640,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "belgrano-sur-660-ida",
+      "lineId": "belgrano-sur",
+      "routeName": "Belgrano Sur",
+      "headsign": "Cabecera",
+      "startsAtMinute": 660,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "belgrano-sur-660-vuelta",
+      "lineId": "belgrano-sur",
+      "routeName": "Belgrano Sur",
+      "headsign": "Retiro",
+      "startsAtMinute": 660,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "belgrano-sur-680-ida",
+      "lineId": "belgrano-sur",
+      "routeName": "Belgrano Sur",
+      "headsign": "Cabecera",
+      "startsAtMinute": 680,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "belgrano-sur-680-vuelta",
+      "lineId": "belgrano-sur",
+      "routeName": "Belgrano Sur",
+      "headsign": "Retiro",
+      "startsAtMinute": 680,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "belgrano-sur-700-ida",
+      "lineId": "belgrano-sur",
+      "routeName": "Belgrano Sur",
+      "headsign": "Cabecera",
+      "startsAtMinute": 700,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "belgrano-sur-700-vuelta",
+      "lineId": "belgrano-sur",
+      "routeName": "Belgrano Sur",
+      "headsign": "Retiro",
+      "startsAtMinute": 700,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "belgrano-sur-720-ida",
+      "lineId": "belgrano-sur",
+      "routeName": "Belgrano Sur",
+      "headsign": "Cabecera",
+      "startsAtMinute": 720,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "belgrano-sur-720-vuelta",
+      "lineId": "belgrano-sur",
+      "routeName": "Belgrano Sur",
+      "headsign": "Retiro",
+      "startsAtMinute": 720,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "belgrano-sur-740-ida",
+      "lineId": "belgrano-sur",
+      "routeName": "Belgrano Sur",
+      "headsign": "Cabecera",
+      "startsAtMinute": 740,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "belgrano-sur-740-vuelta",
+      "lineId": "belgrano-sur",
+      "routeName": "Belgrano Sur",
+      "headsign": "Retiro",
+      "startsAtMinute": 740,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "belgrano-sur-760-ida",
+      "lineId": "belgrano-sur",
+      "routeName": "Belgrano Sur",
+      "headsign": "Cabecera",
+      "startsAtMinute": 760,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "belgrano-sur-760-vuelta",
+      "lineId": "belgrano-sur",
+      "routeName": "Belgrano Sur",
+      "headsign": "Retiro",
+      "startsAtMinute": 760,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "belgrano-sur-780-ida",
+      "lineId": "belgrano-sur",
+      "routeName": "Belgrano Sur",
+      "headsign": "Cabecera",
+      "startsAtMinute": 780,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "belgrano-sur-780-vuelta",
+      "lineId": "belgrano-sur",
+      "routeName": "Belgrano Sur",
+      "headsign": "Retiro",
+      "startsAtMinute": 780,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "belgrano-sur-800-ida",
+      "lineId": "belgrano-sur",
+      "routeName": "Belgrano Sur",
+      "headsign": "Cabecera",
+      "startsAtMinute": 800,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "belgrano-sur-800-vuelta",
+      "lineId": "belgrano-sur",
+      "routeName": "Belgrano Sur",
+      "headsign": "Retiro",
+      "startsAtMinute": 800,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "belgrano-sur-820-ida",
+      "lineId": "belgrano-sur",
+      "routeName": "Belgrano Sur",
+      "headsign": "Cabecera",
+      "startsAtMinute": 820,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "belgrano-sur-820-vuelta",
+      "lineId": "belgrano-sur",
+      "routeName": "Belgrano Sur",
+      "headsign": "Retiro",
+      "startsAtMinute": 820,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "belgrano-sur-840-ida",
+      "lineId": "belgrano-sur",
+      "routeName": "Belgrano Sur",
+      "headsign": "Cabecera",
+      "startsAtMinute": 840,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "belgrano-sur-840-vuelta",
+      "lineId": "belgrano-sur",
+      "routeName": "Belgrano Sur",
+      "headsign": "Retiro",
+      "startsAtMinute": 840,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "belgrano-sur-860-ida",
+      "lineId": "belgrano-sur",
+      "routeName": "Belgrano Sur",
+      "headsign": "Cabecera",
+      "startsAtMinute": 860,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "belgrano-sur-860-vuelta",
+      "lineId": "belgrano-sur",
+      "routeName": "Belgrano Sur",
+      "headsign": "Retiro",
+      "startsAtMinute": 860,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "belgrano-sur-880-ida",
+      "lineId": "belgrano-sur",
+      "routeName": "Belgrano Sur",
+      "headsign": "Cabecera",
+      "startsAtMinute": 880,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "belgrano-sur-880-vuelta",
+      "lineId": "belgrano-sur",
+      "routeName": "Belgrano Sur",
+      "headsign": "Retiro",
+      "startsAtMinute": 880,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "belgrano-sur-900-ida",
+      "lineId": "belgrano-sur",
+      "routeName": "Belgrano Sur",
+      "headsign": "Cabecera",
+      "startsAtMinute": 900,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "belgrano-sur-900-vuelta",
+      "lineId": "belgrano-sur",
+      "routeName": "Belgrano Sur",
+      "headsign": "Retiro",
+      "startsAtMinute": 900,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "belgrano-sur-920-ida",
+      "lineId": "belgrano-sur",
+      "routeName": "Belgrano Sur",
+      "headsign": "Cabecera",
+      "startsAtMinute": 920,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "belgrano-sur-920-vuelta",
+      "lineId": "belgrano-sur",
+      "routeName": "Belgrano Sur",
+      "headsign": "Retiro",
+      "startsAtMinute": 920,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "belgrano-sur-940-ida",
+      "lineId": "belgrano-sur",
+      "routeName": "Belgrano Sur",
+      "headsign": "Cabecera",
+      "startsAtMinute": 940,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "belgrano-sur-940-vuelta",
+      "lineId": "belgrano-sur",
+      "routeName": "Belgrano Sur",
+      "headsign": "Retiro",
+      "startsAtMinute": 940,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "belgrano-sur-960-ida",
+      "lineId": "belgrano-sur",
+      "routeName": "Belgrano Sur",
+      "headsign": "Cabecera",
+      "startsAtMinute": 960,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "belgrano-sur-960-vuelta",
+      "lineId": "belgrano-sur",
+      "routeName": "Belgrano Sur",
+      "headsign": "Retiro",
+      "startsAtMinute": 960,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "belgrano-sur-980-ida",
+      "lineId": "belgrano-sur",
+      "routeName": "Belgrano Sur",
+      "headsign": "Cabecera",
+      "startsAtMinute": 980,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "belgrano-sur-980-vuelta",
+      "lineId": "belgrano-sur",
+      "routeName": "Belgrano Sur",
+      "headsign": "Retiro",
+      "startsAtMinute": 980,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "belgrano-sur-1000-ida",
+      "lineId": "belgrano-sur",
+      "routeName": "Belgrano Sur",
+      "headsign": "Cabecera",
+      "startsAtMinute": 1000,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "belgrano-sur-1000-vuelta",
+      "lineId": "belgrano-sur",
+      "routeName": "Belgrano Sur",
+      "headsign": "Retiro",
+      "startsAtMinute": 1000,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "belgrano-sur-1020-ida",
+      "lineId": "belgrano-sur",
+      "routeName": "Belgrano Sur",
+      "headsign": "Cabecera",
+      "startsAtMinute": 1020,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "belgrano-sur-1020-vuelta",
+      "lineId": "belgrano-sur",
+      "routeName": "Belgrano Sur",
+      "headsign": "Retiro",
+      "startsAtMinute": 1020,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "belgrano-sur-1040-ida",
+      "lineId": "belgrano-sur",
+      "routeName": "Belgrano Sur",
+      "headsign": "Cabecera",
+      "startsAtMinute": 1040,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "belgrano-sur-1040-vuelta",
+      "lineId": "belgrano-sur",
+      "routeName": "Belgrano Sur",
+      "headsign": "Retiro",
+      "startsAtMinute": 1040,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "belgrano-sur-1060-ida",
+      "lineId": "belgrano-sur",
+      "routeName": "Belgrano Sur",
+      "headsign": "Cabecera",
+      "startsAtMinute": 1060,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "belgrano-sur-1060-vuelta",
+      "lineId": "belgrano-sur",
+      "routeName": "Belgrano Sur",
+      "headsign": "Retiro",
+      "startsAtMinute": 1060,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "belgrano-sur-1080-ida",
+      "lineId": "belgrano-sur",
+      "routeName": "Belgrano Sur",
+      "headsign": "Cabecera",
+      "startsAtMinute": 1080,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "belgrano-sur-1080-vuelta",
+      "lineId": "belgrano-sur",
+      "routeName": "Belgrano Sur",
+      "headsign": "Retiro",
+      "startsAtMinute": 1080,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "belgrano-sur-1100-ida",
+      "lineId": "belgrano-sur",
+      "routeName": "Belgrano Sur",
+      "headsign": "Cabecera",
+      "startsAtMinute": 1100,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "belgrano-sur-1100-vuelta",
+      "lineId": "belgrano-sur",
+      "routeName": "Belgrano Sur",
+      "headsign": "Retiro",
+      "startsAtMinute": 1100,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "belgrano-sur-1120-ida",
+      "lineId": "belgrano-sur",
+      "routeName": "Belgrano Sur",
+      "headsign": "Cabecera",
+      "startsAtMinute": 1120,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "belgrano-sur-1120-vuelta",
+      "lineId": "belgrano-sur",
+      "routeName": "Belgrano Sur",
+      "headsign": "Retiro",
+      "startsAtMinute": 1120,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "belgrano-sur-1140-ida",
+      "lineId": "belgrano-sur",
+      "routeName": "Belgrano Sur",
+      "headsign": "Cabecera",
+      "startsAtMinute": 1140,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "belgrano-sur-1140-vuelta",
+      "lineId": "belgrano-sur",
+      "routeName": "Belgrano Sur",
+      "headsign": "Retiro",
+      "startsAtMinute": 1140,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "belgrano-sur-1160-ida",
+      "lineId": "belgrano-sur",
+      "routeName": "Belgrano Sur",
+      "headsign": "Cabecera",
+      "startsAtMinute": 1160,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "belgrano-sur-1160-vuelta",
+      "lineId": "belgrano-sur",
+      "routeName": "Belgrano Sur",
+      "headsign": "Retiro",
+      "startsAtMinute": 1160,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "belgrano-sur-1180-ida",
+      "lineId": "belgrano-sur",
+      "routeName": "Belgrano Sur",
+      "headsign": "Cabecera",
+      "startsAtMinute": 1180,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "belgrano-sur-1180-vuelta",
+      "lineId": "belgrano-sur",
+      "routeName": "Belgrano Sur",
+      "headsign": "Retiro",
+      "startsAtMinute": 1180,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "belgrano-sur-1200-ida",
+      "lineId": "belgrano-sur",
+      "routeName": "Belgrano Sur",
+      "headsign": "Cabecera",
+      "startsAtMinute": 1200,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "belgrano-sur-1200-vuelta",
+      "lineId": "belgrano-sur",
+      "routeName": "Belgrano Sur",
+      "headsign": "Retiro",
+      "startsAtMinute": 1200,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "belgrano-sur-1220-ida",
+      "lineId": "belgrano-sur",
+      "routeName": "Belgrano Sur",
+      "headsign": "Cabecera",
+      "startsAtMinute": 1220,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "belgrano-sur-1220-vuelta",
+      "lineId": "belgrano-sur",
+      "routeName": "Belgrano Sur",
+      "headsign": "Retiro",
+      "startsAtMinute": 1220,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "belgrano-sur-1240-ida",
+      "lineId": "belgrano-sur",
+      "routeName": "Belgrano Sur",
+      "headsign": "Cabecera",
+      "startsAtMinute": 1240,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "belgrano-sur-1240-vuelta",
+      "lineId": "belgrano-sur",
+      "routeName": "Belgrano Sur",
+      "headsign": "Retiro",
+      "startsAtMinute": 1240,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "belgrano-sur-1260-ida",
+      "lineId": "belgrano-sur",
+      "routeName": "Belgrano Sur",
+      "headsign": "Cabecera",
+      "startsAtMinute": 1260,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "belgrano-sur-1260-vuelta",
+      "lineId": "belgrano-sur",
+      "routeName": "Belgrano Sur",
+      "headsign": "Retiro",
+      "startsAtMinute": 1260,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "belgrano-sur-1280-ida",
+      "lineId": "belgrano-sur",
+      "routeName": "Belgrano Sur",
+      "headsign": "Cabecera",
+      "startsAtMinute": 1280,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "belgrano-sur-1280-vuelta",
+      "lineId": "belgrano-sur",
+      "routeName": "Belgrano Sur",
+      "headsign": "Retiro",
+      "startsAtMinute": 1280,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "belgrano-sur-1300-ida",
+      "lineId": "belgrano-sur",
+      "routeName": "Belgrano Sur",
+      "headsign": "Cabecera",
+      "startsAtMinute": 1300,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "belgrano-sur-1300-vuelta",
+      "lineId": "belgrano-sur",
+      "routeName": "Belgrano Sur",
+      "headsign": "Retiro",
+      "startsAtMinute": 1300,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "belgrano-sur-1320-ida",
+      "lineId": "belgrano-sur",
+      "routeName": "Belgrano Sur",
+      "headsign": "Cabecera",
+      "startsAtMinute": 1320,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "belgrano-sur-1320-vuelta",
+      "lineId": "belgrano-sur",
+      "routeName": "Belgrano Sur",
+      "headsign": "Retiro",
+      "startsAtMinute": 1320,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "belgrano-sur-1340-ida",
+      "lineId": "belgrano-sur",
+      "routeName": "Belgrano Sur",
+      "headsign": "Cabecera",
+      "startsAtMinute": 1340,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "belgrano-sur-1340-vuelta",
+      "lineId": "belgrano-sur",
+      "routeName": "Belgrano Sur",
+      "headsign": "Retiro",
+      "startsAtMinute": 1340,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "belgrano-sur-1360-ida",
+      "lineId": "belgrano-sur",
+      "routeName": "Belgrano Sur",
+      "headsign": "Cabecera",
+      "startsAtMinute": 1360,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "belgrano-sur-1360-vuelta",
+      "lineId": "belgrano-sur",
+      "routeName": "Belgrano Sur",
+      "headsign": "Retiro",
+      "startsAtMinute": 1360,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "belgrano-sur-1380-ida",
+      "lineId": "belgrano-sur",
+      "routeName": "Belgrano Sur",
+      "headsign": "Cabecera",
+      "startsAtMinute": 1380,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "belgrano-sur-1380-vuelta",
+      "lineId": "belgrano-sur",
+      "routeName": "Belgrano Sur",
+      "headsign": "Retiro",
+      "startsAtMinute": 1380,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "belgrano-sur-1400-ida",
+      "lineId": "belgrano-sur",
+      "routeName": "Belgrano Sur",
+      "headsign": "Cabecera",
+      "startsAtMinute": 1400,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "belgrano-sur-1400-vuelta",
+      "lineId": "belgrano-sur",
+      "routeName": "Belgrano Sur",
+      "headsign": "Retiro",
+      "startsAtMinute": 1400,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "belgrano-sur-1420-ida",
+      "lineId": "belgrano-sur",
+      "routeName": "Belgrano Sur",
+      "headsign": "Cabecera",
+      "startsAtMinute": 1420,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "belgrano-sur-1420-vuelta",
+      "lineId": "belgrano-sur",
+      "routeName": "Belgrano Sur",
+      "headsign": "Retiro",
+      "startsAtMinute": 1420,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "urquiza-300-ida",
+      "lineId": "urquiza",
+      "routeName": "Urquiza",
+      "headsign": "Cabecera",
+      "startsAtMinute": 300,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "urquiza-300-vuelta",
+      "lineId": "urquiza",
+      "routeName": "Urquiza",
+      "headsign": "Retiro",
+      "startsAtMinute": 300,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "urquiza-320-ida",
+      "lineId": "urquiza",
+      "routeName": "Urquiza",
+      "headsign": "Cabecera",
+      "startsAtMinute": 320,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "urquiza-320-vuelta",
+      "lineId": "urquiza",
+      "routeName": "Urquiza",
+      "headsign": "Retiro",
+      "startsAtMinute": 320,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "urquiza-340-ida",
+      "lineId": "urquiza",
+      "routeName": "Urquiza",
+      "headsign": "Cabecera",
+      "startsAtMinute": 340,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "urquiza-340-vuelta",
+      "lineId": "urquiza",
+      "routeName": "Urquiza",
+      "headsign": "Retiro",
+      "startsAtMinute": 340,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "urquiza-360-ida",
+      "lineId": "urquiza",
+      "routeName": "Urquiza",
+      "headsign": "Cabecera",
+      "startsAtMinute": 360,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "urquiza-360-vuelta",
+      "lineId": "urquiza",
+      "routeName": "Urquiza",
+      "headsign": "Retiro",
+      "startsAtMinute": 360,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "urquiza-380-ida",
+      "lineId": "urquiza",
+      "routeName": "Urquiza",
+      "headsign": "Cabecera",
+      "startsAtMinute": 380,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "urquiza-380-vuelta",
+      "lineId": "urquiza",
+      "routeName": "Urquiza",
+      "headsign": "Retiro",
+      "startsAtMinute": 380,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "urquiza-400-ida",
+      "lineId": "urquiza",
+      "routeName": "Urquiza",
+      "headsign": "Cabecera",
+      "startsAtMinute": 400,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "urquiza-400-vuelta",
+      "lineId": "urquiza",
+      "routeName": "Urquiza",
+      "headsign": "Retiro",
+      "startsAtMinute": 400,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "urquiza-420-ida",
+      "lineId": "urquiza",
+      "routeName": "Urquiza",
+      "headsign": "Cabecera",
+      "startsAtMinute": 420,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "urquiza-420-vuelta",
+      "lineId": "urquiza",
+      "routeName": "Urquiza",
+      "headsign": "Retiro",
+      "startsAtMinute": 420,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "urquiza-440-ida",
+      "lineId": "urquiza",
+      "routeName": "Urquiza",
+      "headsign": "Cabecera",
+      "startsAtMinute": 440,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "urquiza-440-vuelta",
+      "lineId": "urquiza",
+      "routeName": "Urquiza",
+      "headsign": "Retiro",
+      "startsAtMinute": 440,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "urquiza-460-ida",
+      "lineId": "urquiza",
+      "routeName": "Urquiza",
+      "headsign": "Cabecera",
+      "startsAtMinute": 460,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "urquiza-460-vuelta",
+      "lineId": "urquiza",
+      "routeName": "Urquiza",
+      "headsign": "Retiro",
+      "startsAtMinute": 460,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "urquiza-480-ida",
+      "lineId": "urquiza",
+      "routeName": "Urquiza",
+      "headsign": "Cabecera",
+      "startsAtMinute": 480,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "urquiza-480-vuelta",
+      "lineId": "urquiza",
+      "routeName": "Urquiza",
+      "headsign": "Retiro",
+      "startsAtMinute": 480,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "urquiza-500-ida",
+      "lineId": "urquiza",
+      "routeName": "Urquiza",
+      "headsign": "Cabecera",
+      "startsAtMinute": 500,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "urquiza-500-vuelta",
+      "lineId": "urquiza",
+      "routeName": "Urquiza",
+      "headsign": "Retiro",
+      "startsAtMinute": 500,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "urquiza-520-ida",
+      "lineId": "urquiza",
+      "routeName": "Urquiza",
+      "headsign": "Cabecera",
+      "startsAtMinute": 520,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "urquiza-520-vuelta",
+      "lineId": "urquiza",
+      "routeName": "Urquiza",
+      "headsign": "Retiro",
+      "startsAtMinute": 520,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "urquiza-540-ida",
+      "lineId": "urquiza",
+      "routeName": "Urquiza",
+      "headsign": "Cabecera",
+      "startsAtMinute": 540,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "urquiza-540-vuelta",
+      "lineId": "urquiza",
+      "routeName": "Urquiza",
+      "headsign": "Retiro",
+      "startsAtMinute": 540,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "urquiza-560-ida",
+      "lineId": "urquiza",
+      "routeName": "Urquiza",
+      "headsign": "Cabecera",
+      "startsAtMinute": 560,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "urquiza-560-vuelta",
+      "lineId": "urquiza",
+      "routeName": "Urquiza",
+      "headsign": "Retiro",
+      "startsAtMinute": 560,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "urquiza-580-ida",
+      "lineId": "urquiza",
+      "routeName": "Urquiza",
+      "headsign": "Cabecera",
+      "startsAtMinute": 580,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "urquiza-580-vuelta",
+      "lineId": "urquiza",
+      "routeName": "Urquiza",
+      "headsign": "Retiro",
+      "startsAtMinute": 580,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "urquiza-600-ida",
+      "lineId": "urquiza",
+      "routeName": "Urquiza",
+      "headsign": "Cabecera",
+      "startsAtMinute": 600,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "urquiza-600-vuelta",
+      "lineId": "urquiza",
+      "routeName": "Urquiza",
+      "headsign": "Retiro",
+      "startsAtMinute": 600,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "urquiza-620-ida",
+      "lineId": "urquiza",
+      "routeName": "Urquiza",
+      "headsign": "Cabecera",
+      "startsAtMinute": 620,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "urquiza-620-vuelta",
+      "lineId": "urquiza",
+      "routeName": "Urquiza",
+      "headsign": "Retiro",
+      "startsAtMinute": 620,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "urquiza-640-ida",
+      "lineId": "urquiza",
+      "routeName": "Urquiza",
+      "headsign": "Cabecera",
+      "startsAtMinute": 640,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "urquiza-640-vuelta",
+      "lineId": "urquiza",
+      "routeName": "Urquiza",
+      "headsign": "Retiro",
+      "startsAtMinute": 640,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "urquiza-660-ida",
+      "lineId": "urquiza",
+      "routeName": "Urquiza",
+      "headsign": "Cabecera",
+      "startsAtMinute": 660,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "urquiza-660-vuelta",
+      "lineId": "urquiza",
+      "routeName": "Urquiza",
+      "headsign": "Retiro",
+      "startsAtMinute": 660,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "urquiza-680-ida",
+      "lineId": "urquiza",
+      "routeName": "Urquiza",
+      "headsign": "Cabecera",
+      "startsAtMinute": 680,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "urquiza-680-vuelta",
+      "lineId": "urquiza",
+      "routeName": "Urquiza",
+      "headsign": "Retiro",
+      "startsAtMinute": 680,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "urquiza-700-ida",
+      "lineId": "urquiza",
+      "routeName": "Urquiza",
+      "headsign": "Cabecera",
+      "startsAtMinute": 700,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "urquiza-700-vuelta",
+      "lineId": "urquiza",
+      "routeName": "Urquiza",
+      "headsign": "Retiro",
+      "startsAtMinute": 700,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "urquiza-720-ida",
+      "lineId": "urquiza",
+      "routeName": "Urquiza",
+      "headsign": "Cabecera",
+      "startsAtMinute": 720,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "urquiza-720-vuelta",
+      "lineId": "urquiza",
+      "routeName": "Urquiza",
+      "headsign": "Retiro",
+      "startsAtMinute": 720,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "urquiza-740-ida",
+      "lineId": "urquiza",
+      "routeName": "Urquiza",
+      "headsign": "Cabecera",
+      "startsAtMinute": 740,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "urquiza-740-vuelta",
+      "lineId": "urquiza",
+      "routeName": "Urquiza",
+      "headsign": "Retiro",
+      "startsAtMinute": 740,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "urquiza-760-ida",
+      "lineId": "urquiza",
+      "routeName": "Urquiza",
+      "headsign": "Cabecera",
+      "startsAtMinute": 760,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "urquiza-760-vuelta",
+      "lineId": "urquiza",
+      "routeName": "Urquiza",
+      "headsign": "Retiro",
+      "startsAtMinute": 760,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "urquiza-780-ida",
+      "lineId": "urquiza",
+      "routeName": "Urquiza",
+      "headsign": "Cabecera",
+      "startsAtMinute": 780,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "urquiza-780-vuelta",
+      "lineId": "urquiza",
+      "routeName": "Urquiza",
+      "headsign": "Retiro",
+      "startsAtMinute": 780,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "urquiza-800-ida",
+      "lineId": "urquiza",
+      "routeName": "Urquiza",
+      "headsign": "Cabecera",
+      "startsAtMinute": 800,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "urquiza-800-vuelta",
+      "lineId": "urquiza",
+      "routeName": "Urquiza",
+      "headsign": "Retiro",
+      "startsAtMinute": 800,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "urquiza-820-ida",
+      "lineId": "urquiza",
+      "routeName": "Urquiza",
+      "headsign": "Cabecera",
+      "startsAtMinute": 820,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "urquiza-820-vuelta",
+      "lineId": "urquiza",
+      "routeName": "Urquiza",
+      "headsign": "Retiro",
+      "startsAtMinute": 820,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "urquiza-840-ida",
+      "lineId": "urquiza",
+      "routeName": "Urquiza",
+      "headsign": "Cabecera",
+      "startsAtMinute": 840,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "urquiza-840-vuelta",
+      "lineId": "urquiza",
+      "routeName": "Urquiza",
+      "headsign": "Retiro",
+      "startsAtMinute": 840,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "urquiza-860-ida",
+      "lineId": "urquiza",
+      "routeName": "Urquiza",
+      "headsign": "Cabecera",
+      "startsAtMinute": 860,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "urquiza-860-vuelta",
+      "lineId": "urquiza",
+      "routeName": "Urquiza",
+      "headsign": "Retiro",
+      "startsAtMinute": 860,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "urquiza-880-ida",
+      "lineId": "urquiza",
+      "routeName": "Urquiza",
+      "headsign": "Cabecera",
+      "startsAtMinute": 880,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "urquiza-880-vuelta",
+      "lineId": "urquiza",
+      "routeName": "Urquiza",
+      "headsign": "Retiro",
+      "startsAtMinute": 880,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "urquiza-900-ida",
+      "lineId": "urquiza",
+      "routeName": "Urquiza",
+      "headsign": "Cabecera",
+      "startsAtMinute": 900,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "urquiza-900-vuelta",
+      "lineId": "urquiza",
+      "routeName": "Urquiza",
+      "headsign": "Retiro",
+      "startsAtMinute": 900,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "urquiza-920-ida",
+      "lineId": "urquiza",
+      "routeName": "Urquiza",
+      "headsign": "Cabecera",
+      "startsAtMinute": 920,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "urquiza-920-vuelta",
+      "lineId": "urquiza",
+      "routeName": "Urquiza",
+      "headsign": "Retiro",
+      "startsAtMinute": 920,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "urquiza-940-ida",
+      "lineId": "urquiza",
+      "routeName": "Urquiza",
+      "headsign": "Cabecera",
+      "startsAtMinute": 940,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "urquiza-940-vuelta",
+      "lineId": "urquiza",
+      "routeName": "Urquiza",
+      "headsign": "Retiro",
+      "startsAtMinute": 940,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "urquiza-960-ida",
+      "lineId": "urquiza",
+      "routeName": "Urquiza",
+      "headsign": "Cabecera",
+      "startsAtMinute": 960,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "urquiza-960-vuelta",
+      "lineId": "urquiza",
+      "routeName": "Urquiza",
+      "headsign": "Retiro",
+      "startsAtMinute": 960,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "urquiza-980-ida",
+      "lineId": "urquiza",
+      "routeName": "Urquiza",
+      "headsign": "Cabecera",
+      "startsAtMinute": 980,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "urquiza-980-vuelta",
+      "lineId": "urquiza",
+      "routeName": "Urquiza",
+      "headsign": "Retiro",
+      "startsAtMinute": 980,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "urquiza-1000-ida",
+      "lineId": "urquiza",
+      "routeName": "Urquiza",
+      "headsign": "Cabecera",
+      "startsAtMinute": 1000,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "urquiza-1000-vuelta",
+      "lineId": "urquiza",
+      "routeName": "Urquiza",
+      "headsign": "Retiro",
+      "startsAtMinute": 1000,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "urquiza-1020-ida",
+      "lineId": "urquiza",
+      "routeName": "Urquiza",
+      "headsign": "Cabecera",
+      "startsAtMinute": 1020,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "urquiza-1020-vuelta",
+      "lineId": "urquiza",
+      "routeName": "Urquiza",
+      "headsign": "Retiro",
+      "startsAtMinute": 1020,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "urquiza-1040-ida",
+      "lineId": "urquiza",
+      "routeName": "Urquiza",
+      "headsign": "Cabecera",
+      "startsAtMinute": 1040,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "urquiza-1040-vuelta",
+      "lineId": "urquiza",
+      "routeName": "Urquiza",
+      "headsign": "Retiro",
+      "startsAtMinute": 1040,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "urquiza-1060-ida",
+      "lineId": "urquiza",
+      "routeName": "Urquiza",
+      "headsign": "Cabecera",
+      "startsAtMinute": 1060,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "urquiza-1060-vuelta",
+      "lineId": "urquiza",
+      "routeName": "Urquiza",
+      "headsign": "Retiro",
+      "startsAtMinute": 1060,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "urquiza-1080-ida",
+      "lineId": "urquiza",
+      "routeName": "Urquiza",
+      "headsign": "Cabecera",
+      "startsAtMinute": 1080,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "urquiza-1080-vuelta",
+      "lineId": "urquiza",
+      "routeName": "Urquiza",
+      "headsign": "Retiro",
+      "startsAtMinute": 1080,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "urquiza-1100-ida",
+      "lineId": "urquiza",
+      "routeName": "Urquiza",
+      "headsign": "Cabecera",
+      "startsAtMinute": 1100,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "urquiza-1100-vuelta",
+      "lineId": "urquiza",
+      "routeName": "Urquiza",
+      "headsign": "Retiro",
+      "startsAtMinute": 1100,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "urquiza-1120-ida",
+      "lineId": "urquiza",
+      "routeName": "Urquiza",
+      "headsign": "Cabecera",
+      "startsAtMinute": 1120,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "urquiza-1120-vuelta",
+      "lineId": "urquiza",
+      "routeName": "Urquiza",
+      "headsign": "Retiro",
+      "startsAtMinute": 1120,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "urquiza-1140-ida",
+      "lineId": "urquiza",
+      "routeName": "Urquiza",
+      "headsign": "Cabecera",
+      "startsAtMinute": 1140,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "urquiza-1140-vuelta",
+      "lineId": "urquiza",
+      "routeName": "Urquiza",
+      "headsign": "Retiro",
+      "startsAtMinute": 1140,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "urquiza-1160-ida",
+      "lineId": "urquiza",
+      "routeName": "Urquiza",
+      "headsign": "Cabecera",
+      "startsAtMinute": 1160,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "urquiza-1160-vuelta",
+      "lineId": "urquiza",
+      "routeName": "Urquiza",
+      "headsign": "Retiro",
+      "startsAtMinute": 1160,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "urquiza-1180-ida",
+      "lineId": "urquiza",
+      "routeName": "Urquiza",
+      "headsign": "Cabecera",
+      "startsAtMinute": 1180,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "urquiza-1180-vuelta",
+      "lineId": "urquiza",
+      "routeName": "Urquiza",
+      "headsign": "Retiro",
+      "startsAtMinute": 1180,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "urquiza-1200-ida",
+      "lineId": "urquiza",
+      "routeName": "Urquiza",
+      "headsign": "Cabecera",
+      "startsAtMinute": 1200,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "urquiza-1200-vuelta",
+      "lineId": "urquiza",
+      "routeName": "Urquiza",
+      "headsign": "Retiro",
+      "startsAtMinute": 1200,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "urquiza-1220-ida",
+      "lineId": "urquiza",
+      "routeName": "Urquiza",
+      "headsign": "Cabecera",
+      "startsAtMinute": 1220,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "urquiza-1220-vuelta",
+      "lineId": "urquiza",
+      "routeName": "Urquiza",
+      "headsign": "Retiro",
+      "startsAtMinute": 1220,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "urquiza-1240-ida",
+      "lineId": "urquiza",
+      "routeName": "Urquiza",
+      "headsign": "Cabecera",
+      "startsAtMinute": 1240,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "urquiza-1240-vuelta",
+      "lineId": "urquiza",
+      "routeName": "Urquiza",
+      "headsign": "Retiro",
+      "startsAtMinute": 1240,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "urquiza-1260-ida",
+      "lineId": "urquiza",
+      "routeName": "Urquiza",
+      "headsign": "Cabecera",
+      "startsAtMinute": 1260,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "urquiza-1260-vuelta",
+      "lineId": "urquiza",
+      "routeName": "Urquiza",
+      "headsign": "Retiro",
+      "startsAtMinute": 1260,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "urquiza-1280-ida",
+      "lineId": "urquiza",
+      "routeName": "Urquiza",
+      "headsign": "Cabecera",
+      "startsAtMinute": 1280,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "urquiza-1280-vuelta",
+      "lineId": "urquiza",
+      "routeName": "Urquiza",
+      "headsign": "Retiro",
+      "startsAtMinute": 1280,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "urquiza-1300-ida",
+      "lineId": "urquiza",
+      "routeName": "Urquiza",
+      "headsign": "Cabecera",
+      "startsAtMinute": 1300,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "urquiza-1300-vuelta",
+      "lineId": "urquiza",
+      "routeName": "Urquiza",
+      "headsign": "Retiro",
+      "startsAtMinute": 1300,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "urquiza-1320-ida",
+      "lineId": "urquiza",
+      "routeName": "Urquiza",
+      "headsign": "Cabecera",
+      "startsAtMinute": 1320,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "urquiza-1320-vuelta",
+      "lineId": "urquiza",
+      "routeName": "Urquiza",
+      "headsign": "Retiro",
+      "startsAtMinute": 1320,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "urquiza-1340-ida",
+      "lineId": "urquiza",
+      "routeName": "Urquiza",
+      "headsign": "Cabecera",
+      "startsAtMinute": 1340,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "urquiza-1340-vuelta",
+      "lineId": "urquiza",
+      "routeName": "Urquiza",
+      "headsign": "Retiro",
+      "startsAtMinute": 1340,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "urquiza-1360-ida",
+      "lineId": "urquiza",
+      "routeName": "Urquiza",
+      "headsign": "Cabecera",
+      "startsAtMinute": 1360,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "urquiza-1360-vuelta",
+      "lineId": "urquiza",
+      "routeName": "Urquiza",
+      "headsign": "Retiro",
+      "startsAtMinute": 1360,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "urquiza-1380-ida",
+      "lineId": "urquiza",
+      "routeName": "Urquiza",
+      "headsign": "Cabecera",
+      "startsAtMinute": 1380,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "urquiza-1380-vuelta",
+      "lineId": "urquiza",
+      "routeName": "Urquiza",
+      "headsign": "Retiro",
+      "startsAtMinute": 1380,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "urquiza-1400-ida",
+      "lineId": "urquiza",
+      "routeName": "Urquiza",
+      "headsign": "Cabecera",
+      "startsAtMinute": 1400,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "urquiza-1400-vuelta",
+      "lineId": "urquiza",
+      "routeName": "Urquiza",
+      "headsign": "Retiro",
+      "startsAtMinute": 1400,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "urquiza-1420-ida",
+      "lineId": "urquiza",
+      "routeName": "Urquiza",
+      "headsign": "Cabecera",
+      "startsAtMinute": 1420,
+      "durationMinutes": 45
+    },
+    {
+      "tripId": "urquiza-1420-vuelta",
+      "lineId": "urquiza",
+      "routeName": "Urquiza",
+      "headsign": "Retiro",
+      "startsAtMinute": 1420,
+      "durationMinutes": 45
+    }
+  ]
+}
